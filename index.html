@@ -71,6 +71,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .style("font-weight", function(d){ return "bold";})
+      .style("font-size", function(d){ return "16px";})
       .text(function(d) { return d.data.name; })
       .append('svg:tspan')
       .attr('x', 0)
