@@ -70,7 +70,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .text(function(d) { return d.data.name; });
+      .text(function(d) { return d.data.name + "\n" + d.data.size; });
 
   var node = g.selectAll("circle,text");
 
