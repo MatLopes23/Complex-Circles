@@ -70,7 +70,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .style("font-weight", function(d){ return "bold";})
+      .style("font-weight", function(d){ return d.selected && !d.isLastModule ? "bold" : "";})
       .style("font-size", function(d){ return "13px";})
       .text(function(d) { return d.data.name; })
       .append('svg:tspan')
