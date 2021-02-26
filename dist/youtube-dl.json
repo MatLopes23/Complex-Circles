@@ -1,0 +1,2796 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "update_self",
+                            "size": 28
+                        }
+                    ],
+                    "name": "update.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "compat_get_terminal_size",
+                            "size": 12
+                        }
+                    ],
+                    "name": "compat.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "interpret_expression",
+                            "size": 37
+                        }
+                    ],
+                    "name": "jsinterp.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "__init__.parse_traits_info",
+                            "size": 12
+                        },
+                        {
+                            "name": "__init__",
+                            "size": 37
+                        },
+                        {
+                            "name": "extract_function.resfunc",
+                            "size": 101
+                        }
+                    ],
+                    "name": "swfinterp.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "parseOpts._readUserConf",
+                            "size": 10
+                        },
+                        {
+                            "name": "parseOpts",
+                            "size": 11
+                        }
+                    ],
+                    "name": "options.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "_real_main",
+                            "size": 145
+                        }
+                    ],
+                    "name": "__init__.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "sanitize_filename.replace_insane",
+                            "size": 16
+                        },
+                        {
+                            "name": "_create_http_connection._create_connection",
+                            "size": 12
+                        },
+                        {
+                            "name": "http_response",
+                            "size": 11
+                        },
+                        {
+                            "name": "save",
+                            "size": 14
+                        },
+                        {
+                            "name": "write_string",
+                            "size": 12
+                        },
+                        {
+                            "name": "parse_duration",
+                            "size": 10
+                        },
+                        {
+                            "name": "getslice",
+                            "size": 13
+                        },
+                        {
+                            "name": "js_to_json.fix_kv",
+                            "size": 10
+                        },
+                        {
+                            "name": "parse_codecs",
+                            "size": 12
+                        },
+                        {
+                            "name": "_match_one",
+                            "size": 18
+                        },
+                        {
+                            "name": "dfxp2srt.start",
+                            "size": 21
+                        },
+                        {
+                            "name": "dfxp2srt",
+                            "size": 21
+                        },
+                        {
+                            "name": "decode_png",
+                            "size": 20
+                        },
+                        {
+                            "name": "write_xattr",
+                            "size": 15
+                        }
+                    ],
+                    "name": "utils.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "__init__",
+                            "size": 16
+                        },
+                        {
+                            "name": "trouble",
+                            "size": 11
+                        },
+                        {
+                            "name": "prepare_filename",
+                            "size": 19
+                        },
+                        {
+                            "name": "_match_entry",
+                            "size": 18
+                        },
+                        {
+                            "name": "process_ie_result",
+                            "size": 21
+                        },
+                        {
+                            "name": "__process_playlist",
+                            "size": 16
+                        },
+                        {
+                            "name": "build_format_selector._remove_unused_ops",
+                            "size": 14
+                        },
+                        {
+                            "name": "build_format_selector._parse_format_selection",
+                            "size": 25
+                        },
+                        {
+                            "name": "build_format_selector.build_format_selector._build_selector_function.selector_function",
+                            "size": 29
+                        },
+                        {
+                            "name": "process_video_result",
+                            "size": 61
+                        },
+                        {
+                            "name": "process_subtitles",
+                            "size": 19
+                        },
+                        {
+                            "name": "__forced_printings",
+                            "size": 10
+                        },
+                        {
+                            "name": "process_info",
+                            "size": 64
+                        },
+                        {
+                            "name": "_format_note",
+                            "size": 28
+                        },
+                        {
+                            "name": "print_debug_header",
+                            "size": 14
+                        },
+                        {
+                            "name": "_write_thumbnails",
+                            "size": 11
+                        }
+                    ],
+                    "name": "YoutubeDL.py"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract.extract_formats",
+                                    "size": 22
+                                }
+                            ],
+                            "name": "ruutu.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 23
+                                }
+                            ],
+                            "name": "ndr.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_get_disco_api_info",
+                                    "size": 24
+                                }
+                            ],
+                            "name": "dplay.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "yapfiles.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "uol.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 32
+                                }
+                            ],
+                            "name": "cspan.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_info",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "naver.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_rss",
+                                    "size": 11
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 229
+                                }
+                            ],
+                            "name": "generic.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "blinkx.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_formats",
+                                    "size": 15
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "ard.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 21
+                                }
+                            ],
+                            "name": "firsttv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "kinja.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 47
+                                }
+                            ],
+                            "name": "xhamster.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 24
+                                }
+                            ],
+                            "name": "arkena.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "mixcloud.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "viidea.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video",
+                                    "size": 30
+                                }
+                            ],
+                            "name": "francetv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "eagleplatform.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 20
+                                }
+                            ],
+                            "name": "sixplay.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 30
+                                }
+                            ],
+                            "name": "threeqsdn.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "microsoftvirtualacademy.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "nba.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 38
+                                }
+                            ],
+                            "name": "drtv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 27
+                                }
+                            ],
+                            "name": "metacafe.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_feed_info",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "amp.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "vgtv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "wat.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "br.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 21
+                                }
+                            ],
+                            "name": "vevo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_url_result",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "nowness.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 20
+                                }
+                            ],
+                            "name": "ccma.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 23
+                                }
+                            ],
+                            "name": "rtbf.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "trovo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract",
+                                    "size": 23
+                                }
+                            ],
+                            "name": "ooyala.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "mediasite.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_call_api",
+                                    "size": 11
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 28
+                                }
+                            ],
+                            "name": "dailymotion.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract.entries",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "abcnews.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "senateisvp.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 32
+                                }
+                            ],
+                            "name": "rts.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "dailymail.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 38
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "nrk.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "imdb.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_process_ooyala_element",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "sky.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_item",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "zingmp3.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_info",
+                                    "size": 31
+                                }
+                            ],
+                            "name": "limelight.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "contv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "discovery.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "rice.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "videomore.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "ign.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "itv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_relinker_info",
+                                    "size": 23
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "rai.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "youku.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "roosterteeth.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "ninegag.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_info",
+                                    "size": 30
+                                }
+                            ],
+                            "name": "prosiebensat1.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 26
+                                }
+                            ],
+                            "name": "disney.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "nhl.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 37
+                                }
+                            ],
+                            "name": "puhutv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract.extract_format",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "cda.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "telecinco.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "adultswim.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract.extract_info",
+                                    "size": 27
+                                }
+                            ],
+                            "name": "animeondemand.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_info",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "hbo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_parse_video_metadata",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "dvtv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "showroomlive.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "urplay.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 22
+                                }
+                            ],
+                            "name": "msn.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 22
+                                }
+                            ],
+                            "name": "arte.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 20
+                                }
+                            ],
+                            "name": "servus.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_entries",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "younow.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "patreon.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "pornhd.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_from_id",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "onet.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "cookie_to_dict",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "openload.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 25
+                                }
+                            ],
+                            "name": "pluralsight.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 21
+                                }
+                            ],
+                            "name": "toggle.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_parse_config",
+                                    "size": 32
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 38
+                                }
+                            ],
+                            "name": "vimeo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_episode",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "spotify.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "redtube.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_talk_info",
+                                    "size": 40
+                                }
+                            ],
+                            "name": "ted.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "afreecatv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "tvplay.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "orf.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "sevenplus.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "imggaming.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "sohu.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "litv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "yandexvideo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 26
+                                }
+                            ],
+                            "name": "hotstar.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_info",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "cbs.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "extract_from_xml_url",
+                                    "size": 26
+                                }
+                            ],
+                            "name": "dreisat.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 28
+                                }
+                            ],
+                            "name": "tv2.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "umg.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "theweatherchannel.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "stv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_episode_info",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "nhk.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "tvigle.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "peertube.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "reddit.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_azure_formats",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "nexx.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "hketv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "vidlii.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "libraryofcongress.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "vube.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_info",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "radiocanada.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "abc.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "beatport.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "ninecninemedia.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 27
+                                }
+                            ],
+                            "name": "ceskatelevize.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_build_brightcove_url",
+                                    "size": 15
+                                },
+                                {
+                                    "name": "_extract_brightcove_urls",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                },
+                                {
+                                    "name": "_extract_urls",
+                                    "size": 13
+                                },
+                                {
+                                    "name": "_parse_brightcove_metadata",
+                                    "size": 39
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "brightcove.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "huffpost.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "playtvak.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 31
+                                },
+                                {
+                                    "name": "_entries",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "pornhub.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 20
+                                }
+                            ],
+                            "name": "lego.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_id",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "raywenderlich.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "funimation.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "eporner.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "pandoratv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 36
+                                }
+                            ],
+                            "name": "kaltura.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "nbc.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 42
+                                }
+                            ],
+                            "name": "crunchyroll.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "extract_info",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "redbulltv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 25
+                                }
+                            ],
+                            "name": "crackle.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "ximalaya.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 23
+                                }
+                            ],
+                            "name": "googledrive.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_entries",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "ciscolive.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "mediaset.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_get_subtitles",
+                                    "size": 14
+                                },
+                                {
+                                    "name": "_real_initialize",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 31
+                                }
+                            ],
+                            "name": "adn.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "lifenews.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_track",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "xiami.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "screencast.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 22
+                                }
+                            ],
+                            "name": "yandexdisk.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 24
+                                }
+                            ],
+                            "name": "ivi.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 26
+                                }
+                            ],
+                            "name": "twitter.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "vzaar.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "youporn.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "pladform.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 21
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "nova.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "kakao.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "xtube.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 20
+                                }
+                            ],
+                            "name": "bilibili.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "pinterest.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 37
+                                }
+                            ],
+                            "name": "niconico.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "zype.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "teamcoco.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract.add_format",
+                                    "size": 12
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "viki.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_thumbnails",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "tnaflix.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_formats",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "zattoo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "jamendo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "picarto.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "npr.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "hitbox.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "beeg.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "coub.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "corus.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 26
+                                }
+                            ],
+                            "name": "arcpublishing.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "curiositystream.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_from_url",
+                                    "size": 58
+                                }
+                            ],
+                            "name": "facebook.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "odnoklassniki.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                },
+                                {
+                                    "name": "_extract_feed_info",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "theplatform.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "lynda.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "canvas.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_formats",
+                                    "size": 12
+                                },
+                                {
+                                    "name": "_get_video_info",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "mtv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "spankwire.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_yahoo_video",
+                                    "size": 21
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "yahoo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "xuite.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_media",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "wistia.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 22
+                                }
+                            ],
+                            "name": "konserthusetplay.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "mgtv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_process_media_selector",
+                                    "size": 19
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 90
+                                }
+                            ],
+                            "name": "bbc.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video",
+                                    "size": 15
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "tvnow.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "hidive.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "playvid.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_format",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_extract_entry",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "zdf.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 29
+                                }
+                            ],
+                            "name": "vk.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_cvp_info",
+                                    "size": 37
+                                },
+                                {
+                                    "name": "_extract_ngtv_info",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "turner.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_vrv_formats",
+                                    "size": 11
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "vrv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "indavideo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video",
+                                    "size": 17
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "svt.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "voxmedia.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_get_anvato_videos",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "anvato.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "tv5mondeplus.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "dumpert.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "viewlift.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "xfileshare.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "ninenow.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_webpage",
+                                    "size": 15
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 34
+                                }
+                            ],
+                            "name": "pbs.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "joj.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 24
+                                }
+                            ],
+                            "name": "lecturio.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "teachable.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "linuxacademy.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_tracks",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "yandexmusic.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "minds.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "piksel.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "aparat.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "srgssr.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "rutv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_from_id",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "nytimes.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_get_info",
+                                    "size": 23
+                                },
+                                {
+                                    "name": "_get_old_info",
+                                    "size": 36
+                                }
+                            ],
+                            "name": "npo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "videa.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "iqiyi.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 27
+                                }
+                            ],
+                            "name": "bandcamp.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_entries",
+                                    "size": 13
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "twitch.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_login",
+                                    "size": 22
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 157
+                                },
+                                {
+                                    "name": "_post_thread_entries",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_entries",
+                                    "size": 47
+                                },
+                                {
+                                    "name": "_entries",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "youtube.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "cammodels.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video_info",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "discoverygo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "appletrailers.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 21
+                                }
+                            ],
+                            "name": "globo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 39
+                                },
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "udemy.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "vice.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "watchbox.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 25
+                                }
+                            ],
+                            "name": "channel9.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "voot.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 18
+                                }
+                            ],
+                            "name": "medaltv.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_initialize_geo_bypass",
+                                    "size": 15
+                                },
+                                {
+                                    "name": "_request_webpage",
+                                    "size": 17
+                                },
+                                {
+                                    "name": "_search_regex",
+                                    "size": 13
+                                },
+                                {
+                                    "name": "_search_json_ld",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_json_ld.extract_interaction_statistic",
+                                    "size": 10
+                                },
+                                {
+                                    "name": "_json_ld",
+                                    "size": 26
+                                },
+                                {
+                                    "name": "_sort_formats._formats_key",
+                                    "size": 30
+                                },
+                                {
+                                    "name": "_parse_smil",
+                                    "size": 13
+                                },
+                                {
+                                    "name": "_parse_smil_formats",
+                                    "size": 30
+                                },
+                                {
+                                    "name": "_parse_mpd_formats",
+                                    "size": 43
+                                },
+                                {
+                                    "name": "_parse_ism_formats",
+                                    "size": 25
+                                },
+                                {
+                                    "name": "_parse_html5_media_entries",
+                                    "size": 29
+                                },
+                                {
+                                    "name": "_extract_akamai_formats",
+                                    "size": 14
+                                },
+                                {
+                                    "name": "_extract_wowza_formats",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "common.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "vlive.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "audioboom.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "mdr.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "fusion.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "xvideos.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "chaturbate.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 13
+                                }
+                            ],
+                            "name": "eitb.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_mvpd_auth",
+                                    "size": 27
+                                }
+                            ],
+                            "name": "adobepass.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_info",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "keezmovies.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "testurl.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 23
+                                },
+                                {
+                                    "name": "_extract_graphql",
+                                    "size": 23
+                                }
+                            ],
+                            "name": "instagram.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "viqeo.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_info_dict.add_format",
+                                    "size": 14
+                                },
+                                {
+                                    "name": "_extract_info_dict",
+                                    "size": 35
+                                },
+                                {
+                                    "name": "_extract_set",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "soundcloud.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "wdr.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                },
+                                {
+                                    "name": "_extract_track",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "mailru.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "iprima.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_decrypt_url",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "rtve.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "vidme.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "fox.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 20
+                                }
+                            ],
+                            "name": "rte.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 19
+                                }
+                            ],
+                            "name": "steam.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_extract_video",
+                                    "size": 16
+                                }
+                            ],
+                            "name": "condenast.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "gfycat.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 30
+                                }
+                            ],
+                            "name": "go.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_real_extract",
+                                    "size": 15
+                                }
+                            ],
+                            "name": "tvnet.py"
+                        }
+                    ],
+                    "name": "extractor"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "_prepare_frag_download",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "fragment.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "real_download.establish_connection",
+                                    "size": 31
+                                },
+                                {
+                                    "name": "real_download.download",
+                                    "size": 36
+                                },
+                                {
+                                    "name": "real_download",
+                                    "size": 12
+                                }
+                            ],
+                            "name": "http.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_call_downloader",
+                                    "size": 35
+                                }
+                            ],
+                            "name": "external.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "real_download",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "dash.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "real_download.run_rtmpdump",
+                                    "size": 14
+                                },
+                                {
+                                    "name": "real_download",
+                                    "size": 37
+                                }
+                            ],
+                            "name": "rtmp.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "real_download",
+                                    "size": 29
+                                }
+                            ],
+                            "name": "f4m.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "real_download",
+                                    "size": 43
+                                }
+                            ],
+                            "name": "hls.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "real_download",
+                                    "size": 11
+                                }
+                            ],
+                            "name": "ism.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "report_progress",
+                                    "size": 18
+                                },
+                                {
+                                    "name": "download",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "common.py"
+                        }
+                    ],
+                    "name": "downloader"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "run",
+                                    "size": 17
+                                }
+                            ],
+                            "name": "embedthumbnail.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "_determine_executables",
+                                    "size": 18
+                                },
+                                {
+                                    "name": "get_audio_codec",
+                                    "size": 15
+                                },
+                                {
+                                    "name": "run",
+                                    "size": 26
+                                },
+                                {
+                                    "name": "run",
+                                    "size": 14
+                                }
+                            ],
+                            "name": "ffmpeg.py"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "run",
+                                    "size": 10
+                                }
+                            ],
+                            "name": "xattrpp.py"
+                        }
+                    ],
+                    "name": "postprocessor"
+                }
+            ],
+            "name": "youtube_dl"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "build_completion",
+                            "size": 14
+                        }
+                    ],
+                    "name": "zsh-completion.py"
+                }
+            ],
+            "name": "devscripts"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "generator.test_template",
+                            "size": 35
+                        }
+                    ],
+                    "name": "test_download.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "expect_value",
+                            "size": 20
+                        },
+                        {
+                            "name": "expect_info_dict",
+                            "size": 15
+                        }
+                    ],
+                    "name": "helper.py"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "test_all_files",
+                            "size": 10
+                        }
+                    ],
+                    "name": "test_unicode_literals.py"
+                }
+            ],
+            "name": "test"
+        }
+    ],
+    "name": "PROJECT - youtube-dl"
+}

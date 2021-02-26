@@ -20,7 +20,7 @@ def add_path_to_json(path, filename):
 def add_method_to_json(path, method, complexity):
     aux = test_json()
     aux.name = method
-    aux.complexity = complexity
+    aux.size = complexity
 
     path.children.append(aux)
 
@@ -34,7 +34,8 @@ def find_path(paths, name):
 def csv_to_json(project):
     path_system = pathlib.Path(__file__).parents[1]
     df = pd.read_csv(str(path_system) + '/datasets/' + project + '.csv')
-
+    df = df[df.cyclomatic_complexity >= 10]
+    print(len(df))
     tree = test_json()
     tree.name = "PROJECT - " + project
     tree.children = []
@@ -59,7 +60,7 @@ def csv_to_json(project):
         #    break
         #aux+=1
 
-    with open(str(path_system) + project + '.json', 'w') as f:
+    with open(str(path_system) + '/dist/' + project + '.json', 'w') as f:
         f.write(tree.toJSON())
 
 
