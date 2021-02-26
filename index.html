@@ -70,6 +70,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .style("font-weight", function(d){ return "bold";})
       .text(function(d) { return d.data.name; })
       .append('svg:tspan')
       .attr('x', 0)
