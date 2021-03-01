@@ -27,6 +27,10 @@
   pointer-events: none;
 }
 
+.button {
+  background-color: #e7e7e7; color: black;
+}
+
 </style>
 <svg width="960" height="960"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -64,7 +68,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
-  var text = g.selectAll("text,body")
+  var text = g.selectAll("text")
     .data(nodes)
     .enter().append("text")
       .attr("class", "label")
@@ -76,17 +80,19 @@ d3.json("youtube-dl.json", function(error, root) {
       .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
-      .text(function(d) { return d.data.size; })
+      //.text(function(d) { return d.data.size; })
+      .text(function(d) { return 0; })
+      .append("button");
       //.append('svg:tspan')
       //.attr('x', 0)
       //.attr('dy', 20)
       //.text(function(d) { return 'TESTE'; })
-      .append("foreignObject")
-    .attr("width", 480)
-    .attr("height", 500)
-    .append("xhtml:body")
-    .style("font", "14px 'Helvetica Neue'")
-    .html("<h1>An HTML Foreign Object in SVG</h1>");
+      //.append("foreignObject")
+    //.attr("width", 480)
+    //.attr("height", 500)
+    //.append("xhtml:body")
+    //.style("font", "14px 'Helvetica Neue'")
+    //.html("<h1>An HTML Foreign Object in SVG</h1>");
 
 
   var node = g.selectAll("circle,text");
