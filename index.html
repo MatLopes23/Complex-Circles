@@ -77,14 +77,14 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('x', 0)
       .attr('dy', 20)
       .text(function(d) { return d.data.size; })
-      .append('svg:tspan')
+      //.append('svg:tspan')
+      //.attr('x', 0)
+      //.attr('dy', 20)
+      //.text(function(d) { return 'TESTE'; })
+      .append('xhtml')
       .attr('x', 0)
       .attr('dy', 20)
-      .text(function(d) { return 'TESTE'; })
-      .append('button')
-      .attr('x', 0)
-      .attr('dy', 20)
-      .text(function(d) { return 'text';});
+      .html('<button type="button">Click Me!</button>');
 
 
   var node = g.selectAll("circle,text");
