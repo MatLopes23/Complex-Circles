@@ -77,12 +77,16 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('x', 0)
       .attr('dy', 20)
       .text(function(d) { return d.data.size; })
-      //.append('svg:tspan')
-      //.attr('x', 0)
-      //.attr('dy', 20)
-      //.text(function(d) { return 'TESTE'; })
-      .append('xhtml:boy')
-      .html('<button type="button">Click Me!</button>');
+      .append('svg:tspan')
+      .attr('x', 0)
+      .attr('dy', 20)
+      .text(function(d) { return 'TESTE'; })
+      .append("foreignObject")
+    .attr("width", 480)
+    .attr("height", 500)
+    .append("xhtml:body")
+    .style("font", "14px 'Helvetica Neue'")
+    .html("<h1>An HTML Foreign Object in SVG</h1>");
 
 
   var node = g.selectAll("circle,text");
