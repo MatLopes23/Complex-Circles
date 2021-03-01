@@ -64,7 +64,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
-  var text = g.selectAll("text")
+  var text = g.selectAll("text,body")
     .data(nodes)
     .enter().append("text")
       .attr("class", "label")
