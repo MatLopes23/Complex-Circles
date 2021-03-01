@@ -82,7 +82,8 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('dy', 20)
       //.text(function(d) { return d.data.size; })
       .text(function(d) { return 0; })
-      .append("button");
+      .append("button")
+      attr("class", "button");
       //.append('svg:tspan')
       //.attr('x', 0)
       //.attr('dy', 20)
