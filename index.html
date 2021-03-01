@@ -77,11 +77,9 @@ d3.json("youtube-dl.json", function(error, root) {
       .style("font-weight", function(d){ return "bold";})
       .style("font-size", function(d){ return "12px";})
       .text(function(d) { return d.data.name; })
-      .append('svg:tspan')
-      .attr('x', 0)
-      .attr('dy', 20)
+      .append('text')
       .text(function(d) { return d.data.size; })
-      .append('a')
+      .append('svg:a')
       .attr('href', 'wwww.google.com.br')
       .text('google');
       //.append('svg:tspan')
