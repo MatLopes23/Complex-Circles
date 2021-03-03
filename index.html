@@ -76,6 +76,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('x', 0)
       .attr('dy', 20)
       .text(function(d) { return d.data.size; })
+      .setAttributeNS('http://www.w3.org/1999/xlink','href', 'myimage.jpg')
       .append('svg:a')
       .attr('href', 'https://www.google.com.br')
       .append('svg:img')
