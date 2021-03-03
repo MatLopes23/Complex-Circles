@@ -78,6 +78,8 @@ d3.json("youtube-dl.json", function(error, root) {
       .text(function(d) { return d.data.size; })
       .append('svg:a')
       .attr('href', 'https://www.google.com.br')
+      .append('svg:img')
+      .attr('src','github.jpg')
       .text('google');
       //.append('svg:tspan')
       //.attr('x', 0)
