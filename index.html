@@ -82,7 +82,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
-      .text(function(d) { return d.children == null ? 'GitHub: '+ d.data.size  : ''; })
+      .text(function(d) { return d.children == null ? 'GitHub Location: ' : ''; })
       .style("font-color", "blue");
       //.append('image')
       //.attr('xlink:href','github.jpg')
