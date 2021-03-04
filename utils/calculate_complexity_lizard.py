@@ -48,9 +48,9 @@ def get_complexity(project, files):
         for function in lizard_analyze.function_list:
 
             f = function.__dict__
-            dataset.append([f['name'], file, f['cyclomatic_complexity'], f['nloc'], f['top_nesting_level']])
+            dataset.append([f['name'], file, f['cyclomatic_complexity'], f['nloc'], f['top_nesting_level'], f['start_line']])
     
-    dataset = pd.DataFrame(dataset, columns=['name', 'filename', 'cyclomatic_complexity', 'nloc', 'top_nesting_level'])
+    dataset = pd.DataFrame(dataset, columns=['name', 'filename', 'cyclomatic_complexity', 'nloc', 'top_nesting_level', 'start_line'])
     dataset.to_csv(str(path) + '/datasets/'+ project + '.csv')
 
 repositories = [["youtube-dl", "Python"]]

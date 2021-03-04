@@ -17,10 +17,11 @@ def add_path_to_json(path, filename):
     return aux
 
 
-def add_method_to_json(path, method, complexity):
+def add_method_to_json(path, method, complexity, filename, start_line, org, project):
     aux = test_json()
     aux.name = method
     aux.size = complexity
+    aux.url = "https://github.com/" + org + "/" + project + "/blob/master/" + filename + "#L" + str(start_line)
 
     path.children.append(aux)
 
@@ -31,7 +32,7 @@ def find_path(paths, name):
             return path
     return False
 
-def csv_to_json(project):
+def csv_to_json(org, project):
     path_system = pathlib.Path(__file__).parents[1]
     df = pd.read_csv(str(path_system) + '/datasets/' + project + '.csv')
     df = df[df.cyclomatic_complexity >= 10]
@@ -54,7 +55,7 @@ def csv_to_json(project):
             else:
                 current = path_exist
 
-        add_method_to_json(current, row['name'], row['cyclomatic_complexity'])
+        add_method_to_json(current, row['name'], row['cyclomatic_complexity'], row['filename'], row['start_line'], org, project)
 
         #if(aux == 10):
         #    break
@@ -64,4 +65,4 @@ def csv_to_json(project):
         f.write(tree.toJSON())
 
 
-csv_to_json('youtube-dl')
+csv_to_json('ytdl-org', 'youtube-dl')
