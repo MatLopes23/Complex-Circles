@@ -91,7 +91,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .text(function(d) { return 'Complex: '+ d.data.size; })
       .append('svg:a')
       .attr('href', 'https://www.google.com.br')
-      .append('svg:tspan')
+      .append('text')
       .attr('x', 0)
       .attr('dy', 20)
       .text( 'Text')
