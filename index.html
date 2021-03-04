@@ -86,7 +86,8 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('x', 0)
       .attr('dy', 20)
       .text(function(d) { return d.children == null ? 'GitHub Location' : ''; })
-      .style("fill", "#008CBA");
+      .style("fill", '#008CBA')
+      .style('pointer-events','auto');
       //.append('image')
       //.attr('xlink:href','github.jpg')
       //.attr('width', 50)
