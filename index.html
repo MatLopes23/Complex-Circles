@@ -21,6 +21,13 @@
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
+.link {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+
 
 .button {
   background-color: #e7e7e7; color: black;
@@ -87,7 +94,8 @@ d3.json("youtube-dl.json", function(error, root) {
       .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
-      .text( 'Text');
+      .text( 'Text')
+      .attr("class", "link");
       //.append('image')
       //.attr('xlink:href','github.jpg')
       //.attr('width', 50)
