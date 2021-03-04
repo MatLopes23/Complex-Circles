@@ -76,13 +76,14 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('x', 0)
       .attr('dy', 20)
       .text(function(d) { return d.data.size; })
-      //.append('svg:a')
-      //.attr('href', 'https://www.google.com.br')
-      .append('image')
-      .attr('xlink:href','github.jpg')
-      .attr('width', 50)
-      .attr('height', 50)
-      .text('google');
+      .append('svg:a')
+      .attr('href', 'https://www.google.com.br')
+      .attr('title', "GitHub");
+      //.append('image')
+      //.attr('xlink:href','github.jpg')
+      //.attr('width', 50)
+      //.attr('height', 50)
+      //.text('google');
       //.append('svg:tspan')
       //.attr('x', 0)
       //.attr('dy', 20)
