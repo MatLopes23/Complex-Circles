@@ -21,11 +21,6 @@
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
-
-.button {
-  background-color: #e7e7e7; color: black;
-}
-
 .label,
 .node--root,
 .node--leaf {
@@ -74,7 +69,7 @@ d3.json("youtube-dl.json", function(error, root) {
     .enter().append("text")
       .attr("class", "label")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-      //.style("display", function(d) { return   "none";})
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .style("font-weight", function(d){ return "bold";})
       .style("font-size", function(d){ return "12px";})
       .text(function(d) { return d.data.name; })
