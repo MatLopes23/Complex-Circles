@@ -82,13 +82,15 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('target','_blank')
       .attr('fill','#008CBA')
       .attr('text', 'AQUI')
-      .append('svg:title')
+      .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
       .text(function(d) { return d.children == null ? 'GitHub Location' : ''; })
       .style("fill", '#008CBA')
       .style('pointer-events','auto')
-      .style('text-decoration', 'underline');
+      .style('text-decoration', 'underline')
+      .style("font-weight", function(d){ return "800";})
+      .style("font-size", function(d){ return "13px";});
       //.append('image')
       //.attr('xlink:href','github.jpg')
       //.attr('width', 50)
