@@ -67,7 +67,7 @@ d3.json("youtube-dl.json", function(error, root) {
     .data(nodes)
     .enter().append("text")
       .attr("class", "label")
-      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      //.style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .style("font-weight", function(d){ return "bold";})
       .style("font-size", function(d){ return "12px";})
@@ -78,7 +78,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .text(function(d) { return d.data.size; })
       .append('svg:a')
       .attr('href', 'https://www.google.com.br')
-      .attr('title', "GitHub");
+      .text('GitHub');
       //.append('image')
       //.attr('xlink:href','github.jpg')
       //.attr('width', 50)
@@ -117,9 +117,9 @@ d3.json("youtube-dl.json", function(error, root) {
     transition.selectAll("text")
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         //.style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
-        .style("fill-opacity", function(d) { return 1; })
+        //.style("fill-opacity", function(d) { return 1; })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        //.on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
   }
 
   function zoomTo(v) {
