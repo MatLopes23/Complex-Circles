@@ -67,7 +67,7 @@ d3.json("youtube-dl.json", function(error, root) {
     .data(nodes)
     .enter().append("text")
       .attr("class", "label")
-      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      //.style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return "inline"; })
       .style("font-weight", function(d){ return "bold";})
       .style("font-size", function(d){ return "12px";})
@@ -119,8 +119,7 @@ d3.json("youtube-dl.json", function(error, root) {
 
     transition.selectAll("text")
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
-        //.style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
-        .style("fill-opacity", function(d) { return 1; })
+        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
         .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
   }
