@@ -76,7 +76,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
-      .text(function(d) { return d.parent == root ? 'Complex: '+ d.data.size  : ''; })
+      .text(function(d) { return d.parent != root ? 'Complex: '+ d.data.size  : ''; })
       .append('svg:a')
       .attr('href', 'https://www.google.com.br')
       .append('svg:tspan')
