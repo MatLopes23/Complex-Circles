@@ -68,7 +68,7 @@ d3.json("youtube-dl.json", function(error, root) {
     .enter().append("text")
       .attr("class", "label")
       //.style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-      .style("display", function(d) { return  d.parent === root ? "inline" : "none";})
+      .style("display", function(d) { return   "inline";})
       .style("font-weight", function(d){ return "bold";})
       .style("font-size", function(d){ return "12px";})
       .text(function(d) { return d.data.name; })
