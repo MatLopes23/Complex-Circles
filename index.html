@@ -78,10 +78,9 @@ d3.json("youtube-dl.json", function(error, root) {
       .attr('dy', 20)
       .text(function(d) { return d.children == null ? 'Complex: '+ d.data.size  : ''; })
       .append('svg:a')
-      .attr('href', 'https://www.google.com.br')
+      .attr('href', function(d) { return d.children == null ? d.data.url  : ''; })
       .attr('target','_blank')
       .attr('fill','#008CBA')
-      .attr('text', 'AQUI')
       .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
@@ -91,22 +90,6 @@ d3.json("youtube-dl.json", function(error, root) {
       .style('text-decoration', 'underline')
       .style("font-weight", function(d){ return "800";})
       .style("font-size", function(d){ return "13px";});
-      //.append('image')
-      //.attr('xlink:href','github.jpg')
-      //.attr('width', 50)
-      //.attr('height', 50)
-      //.text('google');
-      //.append('svg:tspan')
-      //.attr('x', 0)
-      //.attr('dy', 20)
-      //.text(function(d) { return 'TESTE'; })
-      //.append("foreignObject")
-    //.attr("width", 480)
-    //.attr("height", 500)
-    //.append("xhtml:body")
-    //.style("font", "14px 'Helvetica Neue'")
-    //.html("<h1>An HTML Foreign Object in SVG</h1>");
-
 
   var node = g.selectAll("circle,text");
 
