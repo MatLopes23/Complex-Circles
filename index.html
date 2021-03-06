@@ -61,8 +61,8 @@ d3.json("youtube-dl.json", function(error, root) {
     .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      //.style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .style("fill", function(d) { return  color(d.data.color); })
+      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      //.style("fill", function(d) { return  color(d.data.color); })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = g.selectAll("text")
@@ -73,7 +73,7 @@ d3.json("youtube-dl.json", function(error, root) {
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .style("font-weight", function(d){ return "bold";})
       .style("font-size", function(d){ return "12px";})
-      .text(function(d) { return d.children == null ? 'Name: ' + d.data.name + '()' : d.data.name; })
+      .text(function(d) { return d.children == null ? 'Name:  '+  color(d.depth)+' ' + d.data.name + '()' : d.data.name; })
       .append('svg:tspan')
       .attr('x', 0)
       .attr('dy', 20)
