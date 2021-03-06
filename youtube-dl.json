@@ -120,14 +120,14 @@
                         },
                         {
                             "category": "IO",
-                            "color": "rgb(0,191,255)",
+                            "color": "rgb(255,228,181)",
                             "name": "save",
                             "size": 14,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2755"
                         },
                         {
                             "category": "IO",
-                            "color": "rgb(0,191,255)",
+                            "color": "rgb(255,228,181)",
                             "name": "write_string",
                             "size": 12,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L3164"
@@ -190,7 +190,7 @@
                         },
                         {
                             "category": "IO",
-                            "color": "rgb(0,191,255)",
+                            "color": "rgb(255,228,181)",
                             "name": "write_xattr",
                             "size": 15,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L5615"
@@ -300,14 +300,14 @@
                         },
                         {
                             "category": "IO",
-                            "color": "rgb(0,191,255)",
+                            "color": "rgb(255,228,181)",
                             "name": "print_debug_header",
                             "size": 14,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L2277"
                         },
                         {
                             "category": "IO",
-                            "color": "rgb(0,191,255)",
+                            "color": "rgb(255,228,181)",
                             "name": "_write_thumbnails",
                             "size": 11,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L2422"
@@ -3000,7 +3000,7 @@
                             "children": [
                                 {
                                     "category": "IO",
-                                    "color": "rgb(0,191,255)",
+                                    "color": "rgb(255,228,181)",
                                     "name": "_login",
                                     "size": 22,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L68"
