@@ -107,6 +107,7 @@
 
       svg
           .style("background", "none")
+          .style("border-radius", "20")
           .on("click", function() { zoom(root); });
 
       zoomTo([root.x, root.y, root.r * 2 + margin]);
