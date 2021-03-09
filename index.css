@@ -6,7 +6,10 @@ body {
 }
 
 body {
-  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
   background-color: #16a085;
   color: #fff;
 }
