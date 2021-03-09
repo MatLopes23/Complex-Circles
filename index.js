@@ -12,7 +12,7 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-var file = document.getElementsByClassName('my_data_json').getAttribute('data-name');
+var file = document.getElementById('my_data_json').getAttribute('data-name');
 
 d3.json(file, function (error, root) {
     if (error) throw error;
