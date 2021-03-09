@@ -6,11 +6,11 @@ body {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #16a085;
   color: #fff;
 }
@@ -23,4 +23,15 @@ h1 {
 p {
   font-size: 2rem;
   font-family: 'Arial', sans-serif;
+}
+
+.foo {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.processing {
+  background: rgb(255,255,255);
 }

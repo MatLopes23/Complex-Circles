@@ -28,99 +28,134 @@
 }
 
 </style>
-<svg width="960" height="960"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <title>Complex Circles</title>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align:center;">Complex Circles - Youtube-dl</h1>
+      <div style="flex-direction: row; display: flex; align-items: center;">
+        <div class="foo" style="background:rgb(255,255,255)"></div><h4 style="padding-right: 8px;">Processing</h4>
+        <div class="foo" style="background:rgb(255,99,71)"></div><h4 style="padding-right: 8px;">Accessing</h4>
+        <div class="foo" style="background:rgb(255,165,0)"></div><h4 style="padding-right: 8px;">Collections</h4>
+        <div class="foo" style="background:rgb(240,230,140)"></div><h4 style="padding-right: 8px;">Condition</h4>
+        <div class="foo" style="background:rgb(34,139,34)"></div><h4 style="padding-right: 8px;">Conversion</h4>
+        <div class="foo" style="background:rgb(100,149,237)"></div><h4 style="padding-right: 8px;">Coordination</h4>
+        <div class="foo" style="background:rgb(79,79,79)"></div><h4 style="padding-right: 8px;">Creation</h4>
+        <div class="foo" style="background:rgb(0,191,255)"></div><h4 style="padding-right: 8px;">IO</h4>
+        <div class="foo" style="background:rgb(139, 0, 0)"></div><h4 style="padding-right: 8px;">Messages</h4>
+        <div class="foo" style="background:rgb(255,222,173)"></div><h4 style="padding-right: 8px;">Release</h4>
+        <div class="foo" style="background:rgb(128,0,128)"></div><h4 style="padding-right: 8px;">Setup</h4>
+        <div class="foo" style="background:rgb(255,182,193)"></div><h4 style="padding-right: 8px;">Test</h4>
+        <div class="foo" style="background:rgb(255,228,225)"></div><h4 style="padding-right: 8px;">Validation</h4>
+        <div class="foo" style="background:rgb(255,228,181)"></div><h4 style="padding-right: 8px;">Undefined</h4>
+      </div>
+      
 
-var svg = d3.select("svg"),
-    margin = 20,
-    diameter = +svg.attr("width"),
-    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    </div>
+    
+    <svg width="960" height="960"></svg>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
 
-var color = d3.scaleLinear()
-    .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3.interpolateHcl);
+    var svg = d3.select("svg"),
+        margin = 20,
+        diameter = +svg.attr("width"),
+        g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-var pack = d3.pack()
-    .size([diameter - margin, diameter - margin])
-    .padding(2);
+    var color = d3.scaleLinear()
+        .domain([-1, 5])
+        .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+        .interpolate(d3.interpolateHcl);
 
-d3.json("youtube-dl.json", function(error, root) {
-  if (error) throw error;
+    var pack = d3.pack()
+        .size([diameter - margin, diameter - margin])
+        .padding(2);
 
-  root = d3.hierarchy(root)
-      .sum(function(d) { return d.size; })
-      .sort(function(a, b) { return b.value - a.value; });
+    d3.json("youtube-dl.json", function(error, root) {
+      if (error) throw error;
 
-  var focus = root,
-      nodes = pack(root).descendants(),
-      view;
+      root = d3.hierarchy(root)
+          .sum(function(d) { return d.size; })
+          .sort(function(a, b) { return b.value - a.value; });
 
-  var circle = g.selectAll("circle")
-    .data(nodes)
-    .enter().append("circle")
-      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+      var focus = root,
+          nodes = pack(root).descendants(),
+          view;
 
-  var text = g.selectAll("text")
-    .data(nodes)
-    .enter().append("text")
-      .attr("class", "label")
-      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .style("font-weight", function(d){ return "bold";})
-      .style("font-size", function(d){ return "12px";})
-      .text(function(d) { return d.children == null ? 'Name: ' + d.data.name + '()' : d.data.name; })
-      .append('svg:tspan')
-      .attr('x', 0)
-      .attr('dy', 20)
-      .text(function(d) { return d.children == null ? 'Complex: '+ d.data.size  : ''; })
-      .append('svg:a')
-      .attr('href', function(d) { return d.children == null ? d.data.url  : ''; })
-      .attr('target','_blank')
-      .attr('fill','#008CBA')
-      .append('svg:tspan')
-      .attr('x', 0)
-      .attr('dy', 20)
-      .text(function(d) { return d.children == null ? 'GitHub Location' : ''; })
-      .style("fill", '#008CBA')
-      .style('pointer-events','auto')
-      .style('text-decoration', 'underline')
-      .style("font-weight", function(d){ return "800";})
-      .style("font-size", function(d){ return "13px";});
+      var circle = g.selectAll("circle")
+        .data(nodes)
+        .enter().append("circle")
+          .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+          .style("fill", function(d) { return d.children ? color(d.depth) : d.data.color; })
+          .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
-  var node = g.selectAll("circle,text");
+      var text = g.selectAll("text")
+        .data(nodes)
+        .enter().append("text")
+          .attr("class", "label")
+          .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+          .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+          .style("font-weight", function(d){ return "bold";})
+          .style("font-size", function(d){ return "12px";})
+          .text(function(d) { return d.children == null ? 'Name: ' + d.data.name + '()' : d.data.name; })
+          .append('svg:tspan')
+          .attr('x', 0)
+          .attr('dy', 20)
+          .text(function(d) { return d.children == null ? 'Complex: '+ d.data.size  : ''; })
+          .append('svg:tspan')
+          .attr('x', 0)
+          .attr('dy', 20)
+          .text(function(d) { return d.children == null ? 'Cat: '+ d.data.category  : ''; })
+          .append('svg:a')
+          .attr('href', function(d) { return d.children == null ? d.data.url  : ''; })
+          .attr('target','_blank')
+          .attr('fill','#008CBA')
+          .append('svg:tspan')
+          .attr('x', 0)
+          .attr('dy', 20)
+          .text(function(d) { return d.children == null ? 'GitHub Location' : ''; })
+          .style("fill", '#008CBA')
+          .style('pointer-events','auto')
+          .style('text-decoration', 'underline')
+          .style("font-weight", function(d){ return "800";})
+          .style("font-size", function(d){ return "13px";});
 
-  svg
-      .style("background", color(-1))
-      .on("click", function() { zoom(root); });
+      var node = g.selectAll("circle,text");
 
-  zoomTo([root.x, root.y, root.r * 2 + margin]);
+      svg
+          .style("background", "none")
+          .style("border-radius", "50px")
+          .on("click", function() { zoom(root); });
 
-  function zoom(d) {
-    var focus0 = focus; focus = d;
+      zoomTo([root.x, root.y, root.r * 2 + margin]);
 
-    var transition = d3.transition()
-        .duration(d3.event.altKey ? 7500 : 750)
-        .tween("zoom", function(d) {
-          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
-          return function(t) { zoomTo(i(t)); };
-        });
+      function zoom(d) {
+        var focus0 = focus; focus = d;
 
-    transition.selectAll("text")
-      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
-        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
-        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
-  }
+        var transition = d3.transition()
+            .duration(d3.event.altKey ? 7500 : 750)
+            .tween("zoom", function(d) {
+              var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+              return function(t) { zoomTo(i(t)); };
+            });
 
-  function zoomTo(v) {
-    var k = diameter / v[2]; view = v;
-    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
-    circle.attr("r", function(d) { return d.r * k; });
-  }
-});
+        transition.selectAll("text")
+          .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+            .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
+            .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+            .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+      }
 
-</script>
+      function zoomTo(v) {
+        var k = diameter / v[2]; view = v;
+        node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+        circle.attr("r", function(d) { return d.r * k; });
+      }
+    });
+
+    </script>
+  </body>
+</html>

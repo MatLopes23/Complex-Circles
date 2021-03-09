@@ -1,7 +1,7 @@
 import json
 import pathlib
 import pandas as pd
-
+import find_prefix
 
 class test_json:
     def toJSON(self):
@@ -22,6 +22,8 @@ def add_method_to_json(path, method, complexity, filename, start_line, org, proj
     aux.name = method
     aux.size = complexity
     aux.url = "https://github.com/" + org + "/" + project + "/blob/master/" + filename + "#L" + str(start_line)
+    aux.color = find_prefix.get_color(method)
+    aux.category = find_prefix.find_prefix(method)
 
     path.children.append(aux)
 
