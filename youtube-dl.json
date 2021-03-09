@@ -18,7 +18,7 @@
                     "children": [
                         {
                             "category": "accessing",
-                            "color": "rgb(255, 140, 0)",
+                            "color": "rgb(255,99,71)",
                             "name": "compat_get_terminal_size",
                             "size": 12,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/compat.py#L2879"
@@ -141,7 +141,7 @@
                         },
                         {
                             "category": "accessing",
-                            "color": "rgb(255, 140, 0)",
+                            "color": "rgb(255,99,71)",
                             "name": "getslice",
                             "size": 13,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L3773"
@@ -345,7 +345,7 @@
                             "children": [
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_disco_api_info",
                                     "size": 24,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dplay.py#L187"
@@ -1969,7 +1969,7 @@
                             "children": [
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_subtitles",
                                     "size": 14,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adn.py#L75"
@@ -2438,7 +2438,7 @@
                                 },
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_video_info",
                                     "size": 15,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mtv.py#L132"
@@ -2703,7 +2703,7 @@
                             "children": [
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_anvato_videos",
                                     "size": 15,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/anvato.py#L273"
@@ -2926,14 +2926,14 @@
                             "children": [
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_info",
                                     "size": 23,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/npo.py#L186"
                                 },
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_old_info",
                                     "size": 36,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/npo.py#L299"
@@ -3174,7 +3174,7 @@
                                 },
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "_request_webpage",
                                     "size": 17,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L597"
@@ -3763,7 +3763,7 @@
                                 },
                                 {
                                     "category": "accessing",
-                                    "color": "rgb(255, 140, 0)",
+                                    "color": "rgb(255,99,71)",
                                     "name": "get_audio_codec",
                                     "size": 15,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/ffmpeg.py#L164"
@@ -3838,7 +3838,7 @@
                     "children": [
                         {
                             "category": "accessing",
-                            "color": "rgb(255, 140, 0)",
+                            "color": "rgb(255,99,71)",
                             "name": "expect_value",
                             "size": 20,
                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/test/helper.py#L101"
