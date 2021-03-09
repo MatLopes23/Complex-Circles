@@ -27,6 +27,13 @@
   pointer-events: none;
 }
 
+#svgelem {
+            position: relative;
+            left: 10%;
+            -webkit-transform: translateX(-20%);
+            -ms-transform: translateX(-20%);
+            transform: translateX(-20%);
+         }
 </style>
 
 <html>
@@ -36,8 +43,7 @@
   </head>
   <body>
     <h1>Complex Circles - Youtube-dl</h1>
-    <svg width="960" height="960" rx="20"></svg>
-    <path id="svgMask" d="M3,474 L957,471 942,24 40,1 z" stroke-linejoin="round" stroke="black" stroke-width="80"/>
+    <svg id="svgelem" width="960" height="960" rx="20"></svg>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script>
 
