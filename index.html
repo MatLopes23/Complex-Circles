@@ -42,7 +42,6 @@
 
     var svg = d3.select("svg"),
         margin = 20,
-        color='white',
         diameter = +svg.attr("width"),
         g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
@@ -107,7 +106,7 @@
       var node = g.selectAll("circle,text");
 
       svg
-          .style("background", color(-1))
+          .style("background", "none")
           .on("click", function() { zoom(root); });
 
       zoomTo([root.x, root.y, root.r * 2 + margin]);
