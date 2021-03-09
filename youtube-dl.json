@@ -776,7 +776,7 @@
                             "children": [
                                 {
                                     "category": "messages",
-                                    "color": "rgb(0,100,0)",
+                                    "color": "rgb(139, 0, 0)",
                                     "name": "_call_api",
                                     "size": 11,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dailymotion.py#L48"
@@ -3641,7 +3641,7 @@
                             "children": [
                                 {
                                     "category": "messages",
-                                    "color": "rgb(0,100,0)",
+                                    "color": "rgb(139, 0, 0)",
                                     "name": "_call_downloader",
                                     "size": 35,
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/external.py#L223"
