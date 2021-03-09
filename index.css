@@ -6,10 +6,11 @@ body {
 }
 
 body {
-  width: 50%;
-  margin: auto;
-  padding: 10px;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #16a085;
   color: #fff;
 }
