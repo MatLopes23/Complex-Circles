@@ -40,7 +40,7 @@ d3.json(file, function (error, root) {
         .style("display", function (d) { return d.parent === root ? "inline" : "none"; })
         .style("font-weight", function (d) { return "bold"; })
         .style("font-size", function (d) { return "12px"; })
-        .text(function (d) { return d.data.name; })
+        .text(function (d) { return d.children != null ? d.data.name : 'none'; })
         .append('svg:tspan')
         .attr('x', 0)
         .attr('dy', 20)
