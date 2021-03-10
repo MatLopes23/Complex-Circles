@@ -34,7 +34,7 @@ d3.json(file, function (error, root) {
 
     var text = g.selectAll("text")
         .data(nodes)
-        .enter().append("svg:title")
+        .enter().append("text")
         .attr("class", "label")
         .style("fill-opacity", function (d) { return d.parent === root ? 1 : 0; })
         .style("display", function (d) { return d.parent === root ? "inline" : "none"; })
