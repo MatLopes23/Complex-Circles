@@ -40,7 +40,7 @@ d3.json(file, function (error, root) {
         .style("display", function (d) { return d.parent === root ? "inline" : "none"; })
         .style("font-weight", function (d) { return "bold"; })
         .style("font-size", function (d) { return "12px"; })
-        .text(function (d) { return d.children != null ? d.data.name : 'none'; })
+        .text(function (d) { return d.children != null ? d.data.name : ''; })
         .append('svg:a')
         .attr('href', function (d) { return d.children == null ? d.data.url : ''; })
         .attr('target', '_blank')
