@@ -46,7 +46,7 @@ d3.json(file, function (error, root) {
         .attr('target', '_blank')
         .attr('fill', '#008CBA')
         .append('svg:tspan')
-        .attr("class", "tooltiptext")
+        //.attr("class", "tooltiptext")
         .attr('x', 0)
         .attr('dy', 20)
         .text(function (d) { return d.children == null ? 'GitHub' : ''; })
