@@ -41,14 +41,6 @@ d3.json(file, function (error, root) {
         .style("font-weight", function (d) { return "bold"; })
         .style("font-size", function (d) { return "12px"; })
         .text(function (d) { return d.children != null ? d.data.name : 'none'; })
-        .append('svg:tspan')
-        .attr('x', 0)
-        .attr('dy', 20)
-        .text(function (d) { return d.children == null ? 'Complex: ' + d.data.size : ''; })
-        .append('svg:tspan')
-        .attr('x', 0)
-        .attr('dy', 20)
-        .text(function (d) { return d.children == null ? 'Cat: ' + d.data.category : ''; })
         .append('svg:a')
         .attr('href', function (d) { return d.children == null ? d.data.url : ''; })
         .attr('target', '_blank')
@@ -61,8 +53,16 @@ d3.json(file, function (error, root) {
         .style('pointer-events', 'auto')
         .style('text-decoration', 'underline')
         .style("font-weight", function (d) { return "800"; })
-        .style("font-size", function (d) { return "13px"; });
-
+        .style("font-size", function (d) { return "13px"; })
+        .append('svg:tspan')
+        .attr('x', 0)
+        .attr('dy', 20)
+        .text(function (d) { return d.children == null ? 'Complex: ' + d.data.size : ''; })
+        .append('svg:tspan')
+        .attr('x', 0)
+        .attr('dy', 20)
+        .text(function (d) { return d.children == null ? 'Cat: ' + d.data.category : ''; });
+        
     var node = g.selectAll("circle,text");
 
     svg
