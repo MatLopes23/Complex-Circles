@@ -45,7 +45,7 @@ d3.json(file, function (error, root) {
         .attr('href', function (d) { return d.children == null ? d.data.url : ''; })
         .attr('target', '_blank')
         .attr('fill', '#008CBA')
-        .append('span')
+        .append('svg:tspan')
         .attr('data-tooltip','TESTAndo')
         .attr('x', 0)
         .attr('dy', 20)
