@@ -30,15 +30,15 @@ d3.json(file, function (error, root) {
         .enter().append("circle")
         .attr("class", function (d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
         .style("fill", function (d) { return d.children ? color(d.depth) : d.data.color; })
-        .on("click", function (d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+        .on("click", function (d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
+        .on("mouseover", function(d) {this.style.display = "inline";});
 
     var text = g.selectAll("text")
         .data(nodes)
         .enter().append("text")
         .attr("class", "label")
         .style("fill-opacity", function (d) { return d.parent === root ? 1 : 0; })
-        .style("display", function (d) { return d.parent === root ? "none" : "inline"; })
-        .style("visibility", "hidden")
+        .style("display", function (d) { return d.parent === root ? "none" : "none"; })
         .style("font-weight", function (d) { return "bold"; })
         .style("font-size", function (d) { return "12px"; })
         .text(function (d) { return d.children != null ? d.data.name : ''; })
@@ -50,7 +50,6 @@ d3.json(file, function (error, root) {
         .attr('x', 0)
         .attr('dy', 20)
         .text(function (d) { return d.children == null ? 'GitHub' : ''; })
-        //.style("display", function (d) { return d.parent === root ? "none" : "none"; })
         .style("fill", '#008CBA')
         .style('pointer-events', 'auto')
         .style('text-decoration', 'underline')
@@ -58,11 +57,9 @@ d3.json(file, function (error, root) {
         .style("font-size", function (d) { return "13px"; })
         .append('svg:tspan')
         .attr('x', 0)
-        //.style("display", function (d) { return d.parent === root ? "none" : "none"; })
         .attr('dy', 20)
         .text(function (d) { return d.children == null ? 'Complex: ' + d.data.size : ''; })
         .append('svg:tspan')
-        //.style("display", function (d) { return d.parent === root ? "none" : "none"; })
         .attr('x', 0)
         .attr('dy', 20)
         .text(function (d) { return d.children == null ? 'Cat: ' + d.data.category : ''; });
