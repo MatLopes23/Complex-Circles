@@ -4,7 +4,7 @@ var svg = d3.select("svg"),
   g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 var color = d3.scaleLinear()
-  .domain([-1, 8])
+  .domain([-1, 12])
   .range(["hsl(152,80%,80%)", "hsl(228,30%,5%)"])
   .interpolate(d3.interpolateHcl);
 
