@@ -62,7 +62,7 @@ p {
   border-bottom: 1px dotted black;
 }
 
-.label .tooltiptext {
+.label #tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -76,6 +76,6 @@ p {
   z-index: 1;
 }
 
-.label:hover .tooltiptext {
+.label:hover #tooltiptext {
   visibility: visible;
 }
