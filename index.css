@@ -57,5 +57,5 @@ p {
 }
 
 .label:hover{
-  font-size: 150%;
+  visibility: visible;
 }

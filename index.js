@@ -38,6 +38,7 @@ d3.json(file, function (error, root) {
         .attr("class", "label")
         .style("fill-opacity", function (d) { return d.parent === root ? 1 : 0; })
         .style("display", function (d) { return d.parent === root ? "none" : "inline"; })
+        .style("visibility", "hidden")
         .style("font-weight", function (d) { return "bold"; })
         .style("font-size", function (d) { return "12px"; })
         .text(function (d) { return d.children != null ? d.data.name : ''; })
