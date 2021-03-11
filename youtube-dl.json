@@ -31,7 +31,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/compat.py#L2879"
                                 }
                             ],
-                            "name": "compat_get_terminal_size()"
+                            "name": "compat_get_terminal_...()"
                         }
                     ],
                     "name": "compat.py"
@@ -48,7 +48,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/jsinterp.py#L59"
                                 }
                             ],
-                            "name": "interpret_expression()"
+                            "name": "interpret_expression...()"
                         }
                     ],
                     "name": "jsinterp.py"
@@ -65,7 +65,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/swfinterp.py#L298"
                                 }
                             ],
-                            "name": "__init__.parse_traits_info()"
+                            "name": "__init__.parse_trait...()"
                         },
                         {
                             "children": [
@@ -89,7 +89,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/swfinterp.py#L451"
                                 }
                             ],
-                            "name": "extract_function.resfunc()"
+                            "name": "extract_function.res...()"
                         }
                     ],
                     "name": "swfinterp.py"
@@ -106,7 +106,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/options.py#L57"
                                 }
                             ],
-                            "name": "parseOpts._readUserConf()"
+                            "name": "parseOpts._readUserC...()"
                         },
                         {
                             "children": [
@@ -152,7 +152,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2085"
                                 }
                             ],
-                            "name": "sanitize_filename.replace_insane()"
+                            "name": "sanitize_filename.re...()"
                         },
                         {
                             "children": [
@@ -164,7 +164,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2488"
                                 }
                             ],
-                            "name": "_create_http_connection._create_connection()"
+                            "name": "_create_http_connect...()"
                         },
                         {
                             "children": [
@@ -385,7 +385,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L953"
                                 }
                             ],
-                            "name": "__process_playlist()"
+                            "name": "__process_playlist...()"
                         },
                         {
                             "children": [
@@ -397,7 +397,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1178"
                                 }
                             ],
-                            "name": "build_format_selector._remove_unused_ops()"
+                            "name": "build_format_selecto...()"
                         },
                         {
                             "children": [
@@ -409,7 +409,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1209"
                                 }
                             ],
-                            "name": "build_format_selector._parse_format_selection()"
+                            "name": "build_format_selecto...()"
                         },
                         {
                             "children": [
@@ -421,7 +421,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1290"
                                 }
                             ],
-                            "name": "build_format_selector.build_format_selector._build_selector_function.selector_function()"
+                            "name": "build_format_selecto...()"
                         },
                         {
                             "children": [
@@ -433,7 +433,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1447"
                                 }
                             ],
-                            "name": "process_video_result()"
+                            "name": "process_video_result...()"
                         },
                         {
                             "children": [
@@ -457,7 +457,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1733"
                                 }
                             ],
-                            "name": "__forced_printings()"
+                            "name": "__forced_printings...()"
                         },
                         {
                             "children": [
@@ -493,7 +493,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L2277"
                                 }
                             ],
-                            "name": "print_debug_header()"
+                            "name": "print_debug_header...()"
                         },
                         {
                             "children": [
@@ -524,7 +524,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ruutu.py#L136"
                                         }
                                     ],
-                                    "name": "_real_extract.extract_formats()"
+                                    "name": "_real_extract.extrac...()"
                                 }
                             ],
                             "name": "ruutu.py"
@@ -558,7 +558,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dplay.py#L187"
                                         }
                                     ],
-                                    "name": "_get_disco_api_info()"
+                                    "name": "_get_disco_api_info...()"
                                 }
                             ],
                             "name": "dplay.py"
@@ -626,7 +626,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/naver.py#L21"
                                         }
                                     ],
-                                    "name": "_extract_video_info()"
+                                    "name": "_extract_video_info...()"
                                 }
                             ],
                             "name": "naver.py"
@@ -992,7 +992,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/amp.py#L18"
                                         }
                                     ],
-                                    "name": "_extract_feed_info()"
+                                    "name": "_extract_feed_info...()"
                                 }
                             ],
                             "name": "amp.py"
@@ -1077,7 +1077,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nowness.py#L17"
                                         }
                                     ],
-                                    "name": "_extract_url_result()"
+                                    "name": "_extract_url_result...()"
                                 }
                             ],
                             "name": "nowness.py"
@@ -1208,7 +1208,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/abcnews.py#L121"
                                         }
                                     ],
-                                    "name": "_real_extract.entries()"
+                                    "name": "_real_extract.entrie...()"
                                 }
                             ],
                             "name": "abcnews.py"
@@ -1322,7 +1322,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/sky.py#L19"
                                         }
                                     ],
-                                    "name": "_process_ooyala_element()"
+                                    "name": "_process_ooyala_elem...()"
                                 }
                             ],
                             "name": "sky.py"
@@ -1475,7 +1475,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rai.py#L35"
                                         }
                                     ],
-                                    "name": "_extract_relinker_info()"
+                                    "name": "_extract_relinker_in...()"
                                 },
                                 {
                                     "children": [
@@ -1567,7 +1567,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/prosiebensat1.py#L25"
                                         }
                                     ],
-                                    "name": "_extract_video_info()"
+                                    "name": "_extract_video_info...()"
                                 }
                             ],
                             "name": "prosiebensat1.py"
@@ -1635,7 +1635,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/cda.py#L154"
                                         }
                                     ],
-                                    "name": "_real_extract.extract_format()"
+                                    "name": "_real_extract.extrac...()"
                                 }
                             ],
                             "name": "cda.py"
@@ -1686,7 +1686,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/animeondemand.py#L119"
                                         }
                                     ],
-                                    "name": "_real_extract.extract_info()"
+                                    "name": "_real_extract.extrac...()"
                                 }
                             ],
                             "name": "animeondemand.py"
@@ -1720,7 +1720,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dvtv.py#L115"
                                         }
                                     ],
-                                    "name": "_parse_video_metadata()"
+                                    "name": "_parse_video_metadat...()"
                                 }
                             ],
                             "name": "dvtv.py"
@@ -2174,7 +2174,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/cbs.py#L57"
                                         }
                                     ],
-                                    "name": "_extract_video_info()"
+                                    "name": "_extract_video_info...()"
                                 }
                             ],
                             "name": "cbs.py"
@@ -2191,7 +2191,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dreisat.py#L73"
                                         }
                                     ],
-                                    "name": "extract_from_xml_url()"
+                                    "name": "extract_from_xml_url...()"
                                 }
                             ],
                             "name": "dreisat.py"
@@ -2276,7 +2276,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nhk.py#L23"
                                         }
                                     ],
-                                    "name": "_extract_episode_info()"
+                                    "name": "_extract_episode_inf...()"
                                 }
                             ],
                             "name": "nhk.py"
@@ -2344,7 +2344,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nexx.py#L223"
                                         }
                                     ],
-                                    "name": "_extract_azure_formats()"
+                                    "name": "_extract_azure_forma...()"
                                 }
                             ],
                             "name": "nexx.py"
@@ -2514,7 +2514,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L151"
                                         }
                                     ],
-                                    "name": "_build_brightcove_url()"
+                                    "name": "_build_brightcove_ur...()"
                                 },
                                 {
                                     "children": [
@@ -2526,7 +2526,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L252"
                                         }
                                     ],
-                                    "name": "_extract_brightcove_urls()"
+                                    "name": "_extract_brightcove_...()"
                                 },
                                 {
                                     "children": [
@@ -2562,7 +2562,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L471"
                                         }
                                     ],
-                                    "name": "_parse_brightcove_metadata()"
+                                    "name": "_parse_brightcove_me...()"
                                 },
                                 {
                                     "children": [
@@ -3234,7 +3234,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/viki.py#L283"
                                         }
                                     ],
-                                    "name": "_real_extract.add_format()"
+                                    "name": "_real_extract.add_fo...()"
                                 },
                                 {
                                     "children": [
@@ -3263,7 +3263,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tnaflix.py#L35"
                                         }
                                     ],
-                                    "name": "_extract_thumbnails()"
+                                    "name": "_extract_thumbnails...()"
                                 },
                                 {
                                     "children": [
@@ -3508,7 +3508,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/theplatform.py#L346"
                                         }
                                     ],
-                                    "name": "_extract_feed_info()"
+                                    "name": "_extract_feed_info...()"
                                 }
                             ],
                             "name": "theplatform.py"
@@ -3559,7 +3559,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mtv.py#L71"
                                         }
                                     ],
-                                    "name": "_extract_video_formats()"
+                                    "name": "_extract_video_forma...()"
                                 },
                                 {
                                     "children": [
@@ -3605,7 +3605,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yahoo.py#L180"
                                         }
                                     ],
-                                    "name": "_extract_yahoo_video()"
+                                    "name": "_extract_yahoo_video...()"
                                 },
                                 {
                                     "children": [
@@ -3702,7 +3702,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/bbc.py#L355"
                                         }
                                     ],
-                                    "name": "_process_media_selector()"
+                                    "name": "_process_media_selec...()"
                                 },
                                 {
                                     "children": [
@@ -3852,7 +3852,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/turner.py#L223"
                                         }
                                     ],
-                                    "name": "_extract_ngtv_info()"
+                                    "name": "_extract_ngtv_info...()"
                                 }
                             ],
                             "name": "turner.py"
@@ -3869,7 +3869,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vrv.py#L140"
                                         }
                                     ],
-                                    "name": "_extract_vrv_formats()"
+                                    "name": "_extract_vrv_formats...()"
                                 },
                                 {
                                     "children": [
@@ -3961,7 +3961,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/anvato.py#L273"
                                         }
                                     ],
-                                    "name": "_get_anvato_videos()"
+                                    "name": "_get_anvato_videos...()"
                                 }
                             ],
                             "name": "anvato.py"
@@ -4262,7 +4262,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nytimes.py#L23"
                                         }
                                     ],
-                                    "name": "_extract_video_from_id()"
+                                    "name": "_extract_video_from_...()"
                                 }
                             ],
                             "name": "nytimes.py"
@@ -4412,7 +4412,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L2336"
                                         }
                                     ],
-                                    "name": "_post_thread_entries()"
+                                    "name": "_post_thread_entries...()"
                                 },
                                 {
                                     "children": [
@@ -4470,7 +4470,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/discoverygo.py#L31"
                                         }
                                     ],
-                                    "name": "_extract_video_info()"
+                                    "name": "_extract_video_info...()"
                                 }
                             ],
                             "name": "discoverygo.py"
@@ -4635,7 +4635,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L438"
                                         }
                                     ],
-                                    "name": "_initialize_geo_bypass()"
+                                    "name": "_initialize_geo_bypa...()"
                                 },
                                 {
                                     "children": [
@@ -4683,7 +4683,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1246"
                                         }
                                     ],
-                                    "name": "_json_ld.extract_interaction_statistic()"
+                                    "name": "_json_ld.extract_int...()"
                                 },
                                 {
                                     "children": [
@@ -4707,7 +4707,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1375"
                                         }
                                     ],
-                                    "name": "_sort_formats._formats_key()"
+                                    "name": "_sort_formats._forma...()"
                                 },
                                 {
                                     "children": [
@@ -4731,7 +4731,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1905"
                                         }
                                     ],
-                                    "name": "_parse_smil_formats()"
+                                    "name": "_parse_smil_formats...()"
                                 },
                                 {
                                     "children": [
@@ -4743,7 +4743,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2083"
                                         }
                                     ],
-                                    "name": "_parse_mpd_formats()"
+                                    "name": "_parse_mpd_formats...()"
                                 },
                                 {
                                     "children": [
@@ -4755,7 +4755,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2380"
                                         }
                                     ],
-                                    "name": "_parse_ism_formats()"
+                                    "name": "_parse_ism_formats...()"
                                 },
                                 {
                                     "children": [
@@ -4767,7 +4767,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2475"
                                         }
                                     ],
-                                    "name": "_parse_html5_media_entries()"
+                                    "name": "_parse_html5_media_e...()"
                                 },
                                 {
                                     "children": [
@@ -4779,7 +4779,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2598"
                                         }
                                     ],
-                                    "name": "_extract_akamai_formats()"
+                                    "name": "_extract_akamai_form...()"
                                 },
                                 {
                                     "children": [
@@ -4791,7 +4791,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2654"
                                         }
                                     ],
-                                    "name": "_extract_wowza_formats()"
+                                    "name": "_extract_wowza_forma...()"
                                 }
                             ],
                             "name": "common.py"
@@ -4927,7 +4927,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adobepass.py#L1354"
                                         }
                                     ],
-                                    "name": "_extract_mvpd_auth()"
+                                    "name": "_extract_mvpd_auth...()"
                                 }
                             ],
                             "name": "adobepass.py"
@@ -5024,7 +5024,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/soundcloud.py#L349"
                                         }
                                     ],
-                                    "name": "_extract_info_dict.add_format()"
+                                    "name": "_extract_info_dict.a...()"
                                 },
                                 {
                                     "children": [
@@ -5036,7 +5036,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/soundcloud.py#L318"
                                         }
                                     ],
-                                    "name": "_extract_info_dict()"
+                                    "name": "_extract_info_dict...()"
                                 },
                                 {
                                     "children": [
@@ -5286,7 +5286,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/fragment.py#L126"
                                         }
                                     ],
-                                    "name": "_prepare_frag_download()"
+                                    "name": "_prepare_frag_downlo...()"
                                 }
                             ],
                             "name": "fragment.py"
@@ -5303,7 +5303,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/http.py#L86"
                                         }
                                     ],
-                                    "name": "real_download.establish_connection()"
+                                    "name": "real_download.establ...()"
                                 },
                                 {
                                     "children": [
@@ -5315,7 +5315,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/http.py#L196"
                                         }
                                     ],
-                                    "name": "real_download.download()"
+                                    "name": "real_download.downlo...()"
                                 },
                                 {
                                     "children": [
@@ -5378,7 +5378,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/rtmp.py#L25"
                                         }
                                     ],
-                                    "name": "real_download.run_rtmpdump()"
+                                    "name": "real_download.run_rt...()"
                                 },
                                 {
                                     "children": [
@@ -5509,7 +5509,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/ffmpeg.py#L75"
                                         }
                                     ],
-                                    "name": "_determine_executables()"
+                                    "name": "_determine_executabl...()"
                                 },
                                 {
                                     "children": [
@@ -5609,7 +5609,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/test/test_download.py#L94"
                                 }
                             ],
-                            "name": "generator.test_template()"
+                            "name": "generator.test_templ...()"
                         }
                     ],
                     "name": "test_download.py"
