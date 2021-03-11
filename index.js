@@ -84,7 +84,7 @@ var svg = d3.select("svg"),
           //.filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
             .style("fill-opacity", function(d) { return 1; })
             .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-            .on("end", function(d) { if (d.parent !== focus && d.children != null) this.style.display = "none"; });
+            .on("end", function(d) { if (d.parent !== focus && d.parent.children !== focus) this.style.display = "none"; });
       }
 
       function zoomTo(v) {
