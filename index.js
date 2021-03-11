@@ -64,7 +64,7 @@ d3.json(file, function (error, root) {
         .attr('dy', 20)
         .text(function (d) { return d.children == null ? 'Cat: ' + d.data.category : ''; })
         .on("mouseover", function(d) {this.style.display = "inline";});
-        ;
+        
         
     var node = g.selectAll("circle,text");
 
