@@ -30,7 +30,7 @@ d3.json(file, function (error, root) {
         .enter().append("circle")
         .attr("class", function (d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
         .style("fill", function (d) { return d.children ? color(d.depth) : d.data.color; })
-        .on("click", function (d) { this.style.display = "inline"; if (focus !== d) zoom(d), d3.event.stopPropagation();  })
+        .on("click", function (d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); })
         .on("mouseover", function(d) {this.style.display = "inline";});
 
     var text = g.selectAll("text")
@@ -62,7 +62,9 @@ d3.json(file, function (error, root) {
         .append('svg:tspan')
         .attr('x', 0)
         .attr('dy', 20)
-        .text(function (d) { return d.children == null ? 'Cat: ' + d.data.category : ''; });
+        .text(function (d) { return d.children == null ? 'Cat: ' + d.data.category : ''; })
+        .on("mouseover", function(d) {this.style.display = "inline";});
+        ;
         
     var node = g.selectAll("circle,text");
 
@@ -85,7 +87,7 @@ d3.json(file, function (error, root) {
 
         transition.selectAll("text")
             .filter(function (d) { return d.parent === focus || this.style.display === "inline"; })
-            .style("fill-opacity", function (d) { return d.parent === focus ? 1 : 0; });
+            .style("fill-opacity", function (d) { return d.parent === focus ? 1 : 0; })
             //.on("start", function (d) { if (d.parent === focus) this.style.display = "inline"; })
             //.on("end", function (d) { if (d.parent !== focus) this.style.display = "none"; });
     }
