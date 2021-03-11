@@ -52,6 +52,7 @@ p {
 }
 
 .label,
-.node--root{
+.node--root,
+.node--leaf{
   pointer-events: none;
 }

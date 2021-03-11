@@ -29,7 +29,7 @@ d3.json(file, function (error, root) {
     .data(nodes)
     .enter().append("circle")
     .attr("class", function (d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-    .style("fill", function (d) { return d.children ? color(d.depth) : d.data.color; })
+    .style("fill", function (d) { if (d.children != null && d.children[0].children != null) return color(d.depth); return d.data.color; })
     .on("click", function (d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = g.selectAll("text")
@@ -40,7 +40,7 @@ d3.json(file, function (error, root) {
     .style("display", function (d) { return d.parent === root ? "inline" : "none"; })
     .style("font-weight", function (d) { return "bold"; })
     .style("font-size", function (d) { return "12px"; })
-    .text(function (d) { return d.children == null ? 'Name: ' + d.data.name + '()' : d.data.name; })
+    .text(function (d) { return d.children == null ? 'Name: ' + d.data.name : d.data.name; })
     .append('svg:tspan')
     .attr('x', 0)
     .attr('dy', 20)
@@ -83,10 +83,10 @@ d3.json(file, function (error, root) {
       });
 
     transition.selectAll("text")
-      //.filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
-      .style("fill-opacity", function (d) { return 1; })
-      .on("start", function (d) { if (d.parent === focus) this.style.display = "inline"; })
-      .on("end", function (d) { if (d.parent !== focus && d.parent.children !== focus) this.style.display = "none"; });
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+      .style("fill-opacity", function (d) { return d.parent === focus ? 1 : 0; })
+      .on("start", function (d) { if (d.parent === focus) this.style.display = "inline";})
+      .on("end", function (d) { if (d.parent !== focus) this.style.display = "none"; });
   }
 
   function zoomTo(v) {

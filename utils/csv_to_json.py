@@ -19,12 +19,23 @@ def add_path_to_json(path, filename):
 
 def add_method_to_json(path, method, complexity, filename, start_line, org, project):
     aux = test_json()
-    aux.name = method
-    aux.size = complexity
-    aux.url = "https://github.com/" + org + "/" + project + "/blob/master/" + filename + "#L" + str(start_line)
-    aux.color = find_prefix.get_color(method)
-    aux.category = find_prefix.find_prefix(method)
+    aux.children = []
 
+    aux.name = method.split("::")[-1]
+
+    if(len(aux.name) >=18):
+        aux.name = aux.name[0:18] + "..."
+
+    aux.name += "()"
+    data = test_json()
+    data.name = method+"()"
+    data.size = complexity
+    data.url = "https://github.com/" + org + "/" + project + "/blob/master/" + filename + "#L" + str(start_line)
+    data.color = find_prefix.get_color(data.name)
+    data.category = find_prefix.find_prefix(data.name)
+
+    aux.color = data.color
+    aux.children.append(data)
     path.children.append(aux)
 
 
@@ -68,3 +79,5 @@ def csv_to_json(org, project):
 
 
 csv_to_json('ytdl-org', 'youtube-dl')
+csv_to_json('apple','swift')
+csv_to_json('ReactiveX','RxJava')
