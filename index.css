@@ -56,6 +56,6 @@ p {
   pointer-events: none;
 }
 
-.label:hover{
+.node--leaf:hover{
   display: none;
 }
