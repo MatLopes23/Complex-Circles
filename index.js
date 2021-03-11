@@ -85,7 +85,7 @@ d3.json(file, function (error, root) {
         transition.selectAll("text")
             .filter(function (d) { return d.parent === focus || this.style.display === "inline"; })
             .style("fill-opacity", function (d) { return d.parent === focus ? 1 : 0; })
-            .on("start", function (d) { if (d.parent === focus) this.style.display = "inline"; })
+            .on("start", function (d) { if (d.parent === focus || d.children == null) this.style.display = "inline"; })
             .on("end", function (d) { if (d.parent !== focus) this.style.display = "none"; });
     }
 
