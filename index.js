@@ -56,7 +56,7 @@ d3.json(file, function (error, root) {
     .append('svg:tspan')
     .attr('x', 0)
     .attr('dy', 20)
-    .text(function (d) { return d.children == null ? 'GitHub Location' : ''; })
+    .text(function (d) { return d.children == null ? 'Open on Github' : ''; })
     .style("fill", '#008CBA')
     .style('pointer-events', 'auto')
     .style('text-decoration', 'underline')
