@@ -29,7 +29,7 @@ d3.json(file, function (error, root) {
     .data(nodes)
     .enter().append("circle")
     .attr("class", function (d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-    .style("fill", function (d) { if (d.children != null && d.children[0].children != null) return color(d.depth); return d.data.color; })
+    .style("fill", function (d) { if (d.children != null) return color(d.depth); return d.data.color; })
     .on("click", function (d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = g.selectAll("text")
