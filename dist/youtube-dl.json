@@ -33,7 +33,7 @@
                                 }
                             ],
                             "color": "rgb(255,99,71)",
-                            "name": "compat_get_term...()"
+                            "name": "compat_get_termina...()"
                         }
                     ],
                     "name": "compat.py"
@@ -51,7 +51,7 @@
                                 }
                             ],
                             "color": "rgb(100,149,237)",
-                            "name": "interpret_expre...()"
+                            "name": "interpret_expressi...()"
                         }
                     ],
                     "name": "jsinterp.py"
@@ -69,7 +69,7 @@
                                 }
                             ],
                             "color": "rgb(128,0,128)",
-                            "name": "__init__.parse_...()"
+                            "name": "__init__.parse_tra...()"
                         },
                         {
                             "children": [
@@ -95,7 +95,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "extract_functio...()"
+                            "name": "extract_function.r...()"
                         }
                     ],
                     "name": "swfinterp.py"
@@ -113,7 +113,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "parseOpts._read...()"
+                            "name": "parseOpts._readUse...()"
                         },
                         {
                             "children": [
@@ -162,7 +162,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "sanitize_filena...()"
+                            "name": "sanitize_filename....()"
                         },
                         {
                             "children": [
@@ -175,7 +175,7 @@
                                 }
                             ],
                             "color": "rgb(79,79,79)",
-                            "name": "_create_http_co...()"
+                            "name": "_create_http_conne...()"
                         },
                         {
                             "children": [
@@ -253,7 +253,7 @@
                                 }
                             ],
                             "color": "rgb(34,139,34)",
-                            "name": "js_to_json.fix_...()"
+                            "name": "js_to_json.fix_kv()"
                         },
                         {
                             "children": [
@@ -375,7 +375,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "prepare_filenam...()"
+                            "name": "prepare_filename()"
                         },
                         {
                             "children": [
@@ -401,7 +401,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "process_ie_resu...()"
+                            "name": "process_ie_result()"
                         },
                         {
                             "children": [
@@ -414,7 +414,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "__process_playl...()"
+                            "name": "__process_playlist...()"
                         },
                         {
                             "children": [
@@ -427,7 +427,7 @@
                                 }
                             ],
                             "color": "rgb(79,79,79)",
-                            "name": "build_format_se...()"
+                            "name": "build_format_selec...()"
                         },
                         {
                             "children": [
@@ -440,7 +440,7 @@
                                 }
                             ],
                             "color": "rgb(79,79,79)",
-                            "name": "build_format_se...()"
+                            "name": "build_format_selec...()"
                         },
                         {
                             "children": [
@@ -453,7 +453,7 @@
                                 }
                             ],
                             "color": "rgb(79,79,79)",
-                            "name": "build_format_se...()"
+                            "name": "build_format_selec...()"
                         },
                         {
                             "children": [
@@ -466,7 +466,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "process_video_r...()"
+                            "name": "process_video_resu...()"
                         },
                         {
                             "children": [
@@ -479,7 +479,7 @@
                                 }
                             ],
                             "color": "rgb(255,255,255)",
-                            "name": "process_subtitl...()"
+                            "name": "process_subtitles()"
                         },
                         {
                             "children": [
@@ -492,7 +492,7 @@
                                 }
                             ],
                             "color": "rgb(34,139,34)",
-                            "name": "__forced_printi...()"
+                            "name": "__forced_printings...()"
                         },
                         {
                             "children": [
@@ -531,7 +531,7 @@
                                 }
                             ],
                             "color": "rgb(0,191,255)",
-                            "name": "print_debug_hea...()"
+                            "name": "print_debug_header...()"
                         },
                         {
                             "children": [
@@ -544,7 +544,7 @@
                                 }
                             ],
                             "color": "rgb(0,191,255)",
-                            "name": "_write_thumbnai...()"
+                            "name": "_write_thumbnails()"
                         }
                     ],
                     "name": "YoutubeDL.py"
@@ -564,7 +564,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_real_extract.e...()"
+                                    "name": "_real_extract.extr...()"
                                 }
                             ],
                             "name": "ruutu.py"
@@ -600,7 +600,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,99,71)",
-                                    "name": "_get_disco_api_...()"
+                                    "name": "_get_disco_api_inf...()"
                                 }
                             ],
                             "name": "dplay.py"
@@ -672,7 +672,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_inf...()"
                                 }
                             ],
                             "name": "naver.py"
@@ -739,7 +739,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_format...()"
+                                    "name": "_extract_formats()"
                                 },
                                 {
                                     "children": [
@@ -1061,7 +1061,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_feed_i...()"
+                                    "name": "_extract_feed_info...()"
                                 }
                             ],
                             "name": "amp.py"
@@ -1151,7 +1151,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_url_re...()"
+                                    "name": "_extract_url_resul...()"
                                 }
                             ],
                             "name": "nowness.py"
@@ -1290,7 +1290,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_real_extract.e...()"
+                                    "name": "_real_extract.entr...()"
                                 }
                             ],
                             "name": "abcnews.py"
@@ -1411,7 +1411,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_process_ooyala...()"
+                                    "name": "_process_ooyala_el...()"
                                 }
                             ],
                             "name": "sky.py"
@@ -1573,7 +1573,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_relink...()"
+                                    "name": "_extract_relinker_...()"
                                 },
                                 {
                                     "children": [
@@ -1671,7 +1671,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_inf...()"
                                 }
                             ],
                             "name": "prosiebensat1.py"
@@ -1743,7 +1743,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_real_extract.e...()"
+                                    "name": "_real_extract.extr...()"
                                 }
                             ],
                             "name": "cda.py"
@@ -1797,7 +1797,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_real_extract.e...()"
+                                    "name": "_real_extract.extr...()"
                                 }
                             ],
                             "name": "animeondemand.py"
@@ -1833,7 +1833,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_parse_video_me...()"
+                                    "name": "_parse_video_metad...()"
                                 }
                             ],
                             "name": "dvtv.py"
@@ -1995,7 +1995,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_from_i...()"
+                                    "name": "_extract_from_id()"
                                 }
                             ],
                             "name": "onet.py"
@@ -2098,7 +2098,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_episod...()"
+                                    "name": "_extract_episode()"
                                 }
                             ],
                             "name": "spotify.py"
@@ -2314,7 +2314,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_inf...()"
                                 }
                             ],
                             "name": "cbs.py"
@@ -2332,7 +2332,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "extract_from_xm...()"
+                                    "name": "extract_from_xml_u...()"
                                 }
                             ],
                             "name": "dreisat.py"
@@ -2422,7 +2422,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_episod...()"
+                                    "name": "_extract_episode_i...()"
                                 }
                             ],
                             "name": "nhk.py"
@@ -2494,7 +2494,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_azure_...()"
+                                    "name": "_extract_azure_for...()"
                                 }
                             ],
                             "name": "nexx.py"
@@ -2674,7 +2674,7 @@
                                         }
                                     ],
                                     "color": "rgb(79,79,79)",
-                                    "name": "_build_brightco...()"
+                                    "name": "_build_brightcove_...()"
                                 },
                                 {
                                     "children": [
@@ -2687,7 +2687,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_bright...()"
+                                    "name": "_extract_brightcov...()"
                                 },
                                 {
                                     "children": [
@@ -2726,7 +2726,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_parse_brightco...()"
+                                    "name": "_parse_brightcove_...()"
                                 },
                                 {
                                     "children": [
@@ -2842,7 +2842,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_id()"
                                 }
                             ],
                             "name": "raywenderlich.py"
@@ -3089,7 +3089,7 @@
                                         }
                                     ],
                                     "color": "rgb(128,0,128)",
-                                    "name": "_real_initializ...()"
+                                    "name": "_real_initialize()"
                                 },
                                 {
                                     "children": [
@@ -3439,7 +3439,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_real_extract.a...()"
+                                    "name": "_real_extract.add_...()"
                                 },
                                 {
                                     "children": [
@@ -3470,7 +3470,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_thumbn...()"
+                                    "name": "_extract_thumbnail...()"
                                 },
                                 {
                                     "children": [
@@ -3501,7 +3501,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_format...()"
+                                    "name": "_extract_formats()"
                                 }
                             ],
                             "name": "zattoo.py"
@@ -3681,7 +3681,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_from_u...()"
+                                    "name": "_extract_from_url()"
                                 }
                             ],
                             "name": "facebook.py"
@@ -3730,7 +3730,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_feed_i...()"
+                                    "name": "_extract_feed_info...()"
                                 }
                             ],
                             "name": "theplatform.py"
@@ -3784,7 +3784,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_for...()"
                                 },
                                 {
                                     "children": [
@@ -3797,7 +3797,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,99,71)",
-                                    "name": "_get_video_info...()"
+                                    "name": "_get_video_info()"
                                 }
                             ],
                             "name": "mtv.py"
@@ -3833,7 +3833,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_yahoo_...()"
+                                    "name": "_extract_yahoo_vid...()"
                                 },
                                 {
                                     "children": [
@@ -3936,7 +3936,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_process_media_...()"
+                                    "name": "_process_media_sel...()"
                                 },
                                 {
                                     "children": [
@@ -4034,7 +4034,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_format...()"
+                                    "name": "_extract_format()"
                                 },
                                 {
                                     "children": [
@@ -4083,7 +4083,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_cvp_in...()"
+                                    "name": "_extract_cvp_info()"
                                 },
                                 {
                                     "children": [
@@ -4096,7 +4096,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_ngtv_i...()"
+                                    "name": "_extract_ngtv_info...()"
                                 }
                             ],
                             "name": "turner.py"
@@ -4114,7 +4114,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_vrv_fo...()"
+                                    "name": "_extract_vrv_forma...()"
                                 },
                                 {
                                     "children": [
@@ -4212,7 +4212,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,99,71)",
-                                    "name": "_get_anvato_vid...()"
+                                    "name": "_get_anvato_videos...()"
                                 }
                             ],
                             "name": "anvato.py"
@@ -4320,7 +4320,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_webpag...()"
+                                    "name": "_extract_webpage()"
                                 },
                                 {
                                     "children": [
@@ -4423,7 +4423,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_tracks...()"
+                                    "name": "_extract_tracks()"
                                 }
                             ],
                             "name": "yandexmusic.py"
@@ -4531,7 +4531,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_fro...()"
                                 }
                             ],
                             "name": "nytimes.py"
@@ -4691,7 +4691,7 @@
                                         }
                                     ],
                                     "color": "rgb(100,149,237)",
-                                    "name": "_post_thread_en...()"
+                                    "name": "_post_thread_entri...()"
                                 },
                                 {
                                     "children": [
@@ -4753,7 +4753,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_video_...()"
+                                    "name": "_extract_video_inf...()"
                                 }
                             ],
                             "name": "discoverygo.py"
@@ -4928,7 +4928,7 @@
                                         }
                                     ],
                                     "color": "rgb(128,0,128)",
-                                    "name": "_initialize_geo...()"
+                                    "name": "_initialize_geo_by...()"
                                 },
                                 {
                                     "children": [
@@ -4941,7 +4941,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,99,71)",
-                                    "name": "_request_webpag...()"
+                                    "name": "_request_webpage()"
                                 },
                                 {
                                     "children": [
@@ -4967,7 +4967,7 @@
                                         }
                                     ],
                                     "color": "rgb(100,149,237)",
-                                    "name": "_search_json_ld...()"
+                                    "name": "_search_json_ld()"
                                 },
                                 {
                                     "children": [
@@ -4980,7 +4980,7 @@
                                         }
                                     ],
                                     "color": "rgb(100,149,237)",
-                                    "name": "_json_ld.extrac...()"
+                                    "name": "_json_ld.extract_i...()"
                                 },
                                 {
                                     "children": [
@@ -5006,7 +5006,7 @@
                                         }
                                     ],
                                     "color": "rgb(34,139,34)",
-                                    "name": "_sort_formats._...()"
+                                    "name": "_sort_formats._for...()"
                                 },
                                 {
                                     "children": [
@@ -5032,7 +5032,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_parse_smil_for...()"
+                                    "name": "_parse_smil_format...()"
                                 },
                                 {
                                     "children": [
@@ -5045,7 +5045,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_parse_mpd_form...()"
+                                    "name": "_parse_mpd_formats...()"
                                 },
                                 {
                                     "children": [
@@ -5058,7 +5058,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_parse_ism_form...()"
+                                    "name": "_parse_ism_formats...()"
                                 },
                                 {
                                     "children": [
@@ -5071,7 +5071,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_parse_html5_me...()"
+                                    "name": "_parse_html5_media...()"
                                 },
                                 {
                                     "children": [
@@ -5084,7 +5084,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_akamai...()"
+                                    "name": "_extract_akamai_fo...()"
                                 },
                                 {
                                     "children": [
@@ -5097,7 +5097,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_wowza_...()"
+                                    "name": "_extract_wowza_for...()"
                                 }
                             ],
                             "name": "common.py"
@@ -5241,7 +5241,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_mvpd_a...()"
+                                    "name": "_extract_mvpd_auth...()"
                                 }
                             ],
                             "name": "adobepass.py"
@@ -5308,7 +5308,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_graphq...()"
+                                    "name": "_extract_graphql()"
                                 }
                             ],
                             "name": "instagram.py"
@@ -5344,7 +5344,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_info_d...()"
+                                    "name": "_extract_info_dict...()"
                                 },
                                 {
                                     "children": [
@@ -5357,7 +5357,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_extract_info_d...()"
+                                    "name": "_extract_info_dict...()"
                                 },
                                 {
                                     "children": [
@@ -5622,7 +5622,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "_prepare_frag_d...()"
+                                    "name": "_prepare_frag_down...()"
                                 }
                             ],
                             "name": "fragment.py"
@@ -5640,7 +5640,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "real_download.e...()"
+                                    "name": "real_download.esta...()"
                                 },
                                 {
                                     "children": [
@@ -5653,7 +5653,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "real_download.d...()"
+                                    "name": "real_download.down...()"
                                 },
                                 {
                                     "children": [
@@ -5684,7 +5684,7 @@
                                         }
                                     ],
                                     "color": "rgb(139, 0, 0)",
-                                    "name": "_call_downloade...()"
+                                    "name": "_call_downloader()"
                                 }
                             ],
                             "name": "external.py"
@@ -5720,7 +5720,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,255,255)",
-                                    "name": "real_download.r...()"
+                                    "name": "real_download.run_...()"
                                 },
                                 {
                                     "children": [
@@ -5805,7 +5805,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,228,181)",
-                                    "name": "report_progress...()"
+                                    "name": "report_progress()"
                                 },
                                 {
                                     "children": [
@@ -5859,7 +5859,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,228,181)",
-                                    "name": "_determine_exec...()"
+                                    "name": "_determine_executa...()"
                                 },
                                 {
                                     "children": [
@@ -5872,7 +5872,7 @@
                                         }
                                     ],
                                     "color": "rgb(255,99,71)",
-                                    "name": "get_audio_codec...()"
+                                    "name": "get_audio_codec()"
                                 },
                                 {
                                     "children": [
@@ -5942,7 +5942,7 @@
                                 }
                             ],
                             "color": "rgb(79,79,79)",
-                            "name": "build_completio...()"
+                            "name": "build_completion()"
                         }
                     ],
                     "name": "zsh-completion.py"
@@ -5965,7 +5965,7 @@
                                 }
                             ],
                             "color": "rgb(34,139,34)",
-                            "name": "generator.test_...()"
+                            "name": "generator.test_tem...()"
                         }
                     ],
                     "name": "test_download.py"
@@ -5996,7 +5996,7 @@
                                 }
                             ],
                             "color": "rgb(255,228,181)",
-                            "name": "expect_info_dic...()"
+                            "name": "expect_info_dict()"
                         }
                     ],
                     "name": "helper.py"

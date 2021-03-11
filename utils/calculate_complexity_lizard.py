@@ -12,8 +12,8 @@ def get_files_project(project, language):
     if(language == "Python"):
         files = glob.glob('**/*.py', recursive=True)
     
-    elif(language == "Java"):
-        files = glob.glob('**/*.java', recursive=True)
+    elif(language == "JavaScript"):
+        files = glob.glob('**/*.js', recursive=True)
             
     elif(language == "C++"):
         files = glob.glob('**/*.cpp', recursive=True)
@@ -42,7 +42,7 @@ def get_complexity(project, files):
 repositories = [
     ["youtube-dl", "Python"],
     ["swift", "C++"],
-    ["RxJava", "Java"],
+    ["react", "JavaScript"],
     ]
 
 for repo in repositories:
