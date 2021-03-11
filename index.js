@@ -86,7 +86,7 @@ d3.json(file, function (error, root) {
       //.filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
       .style("fill-opacity", function (d) { return 1; })
       .on("start", function (d) { if (d === focus && d.size != null) this.style.display = "inline"; else if (d.parent == focus) this.style.display = "inline";})
-      .on("end", function (d) { if (d.parent !== focus) this.style.display = "none"; });
+      .on("end", function (d) { if (d.parent !== focus && d.size != null) this.style.display = "none"; });
   }
 
   function zoomTo(v) {
