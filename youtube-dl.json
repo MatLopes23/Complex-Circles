@@ -14,6 +14,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/update.py#L32"
                                 }
                             ],
+                            "color": "rgb(100,149,237)",
                             "name": "update_self()"
                         }
                     ],
@@ -31,7 +32,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/compat.py#L2879"
                                 }
                             ],
-                            "name": "compat_get_terminal_...()"
+                            "color": "rgb(255,99,71)",
+                            "name": "compat_get_term...()"
                         }
                     ],
                     "name": "compat.py"
@@ -48,7 +50,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/jsinterp.py#L59"
                                 }
                             ],
-                            "name": "interpret_expression...()"
+                            "color": "rgb(100,149,237)",
+                            "name": "interpret_expre...()"
                         }
                     ],
                     "name": "jsinterp.py"
@@ -65,7 +68,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/swfinterp.py#L298"
                                 }
                             ],
-                            "name": "__init__.parse_trait...()"
+                            "color": "rgb(128,0,128)",
+                            "name": "__init__.parse_...()"
                         },
                         {
                             "children": [
@@ -77,6 +81,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/swfinterp.py#L186"
                                 }
                             ],
+                            "color": "rgb(128,0,128)",
                             "name": "__init__()"
                         },
                         {
@@ -89,7 +94,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/swfinterp.py#L451"
                                 }
                             ],
-                            "name": "extract_function.res...()"
+                            "color": "rgb(255,255,255)",
+                            "name": "extract_functio...()"
                         }
                     ],
                     "name": "swfinterp.py"
@@ -106,7 +112,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/options.py#L57"
                                 }
                             ],
-                            "name": "parseOpts._readUserC...()"
+                            "color": "rgb(255,255,255)",
+                            "name": "parseOpts._read...()"
                         },
                         {
                             "children": [
@@ -118,6 +125,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/options.py#L41"
                                 }
                             ],
+                            "color": "rgb(255,255,255)",
                             "name": "parseOpts()"
                         }
                     ],
@@ -135,6 +143,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/__init__.py#L48"
                                 }
                             ],
+                            "color": "rgb(255,255,255)",
                             "name": "_real_main()"
                         }
                     ],
@@ -152,7 +161,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2085"
                                 }
                             ],
-                            "name": "sanitize_filename.re...()"
+                            "color": "rgb(255,255,255)",
+                            "name": "sanitize_filena...()"
                         },
                         {
                             "children": [
@@ -164,7 +174,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2488"
                                 }
                             ],
-                            "name": "_create_http_connect...()"
+                            "color": "rgb(79,79,79)",
+                            "name": "_create_http_co...()"
                         },
                         {
                             "children": [
@@ -176,6 +187,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2620"
                                 }
                             ],
+                            "color": "rgb(100,149,237)",
                             "name": "http_response()"
                         },
                         {
@@ -188,6 +200,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L2755"
                                 }
                             ],
+                            "color": "rgb(0,191,255)",
                             "name": "save()"
                         },
                         {
@@ -200,6 +213,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L3164"
                                 }
                             ],
+                            "color": "rgb(0,191,255)",
                             "name": "write_string()"
                         },
                         {
@@ -212,6 +226,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L3646"
                                 }
                             ],
+                            "color": "rgb(255,255,255)",
                             "name": "parse_duration()"
                         },
                         {
@@ -224,6 +239,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L3773"
                                 }
                             ],
+                            "color": "rgb(255,99,71)",
                             "name": "getslice()"
                         },
                         {
@@ -236,7 +252,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L4077"
                                 }
                             ],
-                            "name": "js_to_json.fix_kv()"
+                            "color": "rgb(34,139,34)",
+                            "name": "js_to_json.fix_...()"
                         },
                         {
                             "children": [
@@ -248,6 +265,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L4206"
                                 }
                             ],
+                            "color": "rgb(255,255,255)",
                             "name": "parse_codecs()"
                         },
                         {
@@ -260,6 +278,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L4315"
                                 }
                             ],
+                            "color": "rgb(100,149,237)",
                             "name": "_match_one()"
                         },
                         {
@@ -272,6 +291,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L4458"
                                 }
                             ],
+                            "color": "rgb(100,149,237)",
                             "name": "dfxp2srt.start()"
                         },
                         {
@@ -284,6 +304,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L4419"
                                 }
                             ],
+                            "color": "rgb(255,228,181)",
                             "name": "dfxp2srt()"
                         },
                         {
@@ -296,6 +317,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L5510"
                                 }
                             ],
+                            "color": "rgb(255,255,255)",
                             "name": "decode_png()"
                         },
                         {
@@ -308,6 +330,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/utils.py#L5615"
                                 }
                             ],
+                            "color": "rgb(0,191,255)",
                             "name": "write_xattr()"
                         }
                     ],
@@ -325,6 +348,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L346"
                                 }
                             ],
+                            "color": "rgb(128,0,128)",
                             "name": "__init__()"
                         },
                         {
@@ -337,6 +361,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L571"
                                 }
                             ],
+                            "color": "rgb(255,228,181)",
                             "name": "trouble()"
                         },
                         {
@@ -349,7 +374,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L637"
                                 }
                             ],
-                            "name": "prepare_filename()"
+                            "color": "rgb(255,255,255)",
+                            "name": "prepare_filenam...()"
                         },
                         {
                             "children": [
@@ -361,6 +387,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L726"
                                 }
                             ],
+                            "color": "rgb(100,149,237)",
                             "name": "_match_entry()"
                         },
                         {
@@ -373,7 +400,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L850"
                                 }
                             ],
-                            "name": "process_ie_result()"
+                            "color": "rgb(255,255,255)",
+                            "name": "process_ie_resu...()"
                         },
                         {
                             "children": [
@@ -385,7 +413,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L953"
                                 }
                             ],
-                            "name": "__process_playlist...()"
+                            "color": "rgb(255,255,255)",
+                            "name": "__process_playl...()"
                         },
                         {
                             "children": [
@@ -397,7 +426,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1178"
                                 }
                             ],
-                            "name": "build_format_selecto...()"
+                            "color": "rgb(79,79,79)",
+                            "name": "build_format_se...()"
                         },
                         {
                             "children": [
@@ -409,7 +439,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1209"
                                 }
                             ],
-                            "name": "build_format_selecto...()"
+                            "color": "rgb(79,79,79)",
+                            "name": "build_format_se...()"
                         },
                         {
                             "children": [
@@ -421,7 +452,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1290"
                                 }
                             ],
-                            "name": "build_format_selecto...()"
+                            "color": "rgb(79,79,79)",
+                            "name": "build_format_se...()"
                         },
                         {
                             "children": [
@@ -433,7 +465,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1447"
                                 }
                             ],
-                            "name": "process_video_result...()"
+                            "color": "rgb(255,255,255)",
+                            "name": "process_video_r...()"
                         },
                         {
                             "children": [
@@ -445,7 +478,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1684"
                                 }
                             ],
-                            "name": "process_subtitles()"
+                            "color": "rgb(255,255,255)",
+                            "name": "process_subtitl...()"
                         },
                         {
                             "children": [
@@ -457,7 +491,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1733"
                                 }
                             ],
-                            "name": "__forced_printings...()"
+                            "color": "rgb(34,139,34)",
+                            "name": "__forced_printi...()"
                         },
                         {
                             "children": [
@@ -469,6 +504,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L1763"
                                 }
                             ],
+                            "color": "rgb(255,255,255)",
                             "name": "process_info()"
                         },
                         {
@@ -481,6 +517,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L2178"
                                 }
                             ],
+                            "color": "rgb(34,139,34)",
                             "name": "_format_note()"
                         },
                         {
@@ -493,7 +530,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L2277"
                                 }
                             ],
-                            "name": "print_debug_header...()"
+                            "color": "rgb(0,191,255)",
+                            "name": "print_debug_hea...()"
                         },
                         {
                             "children": [
@@ -505,7 +543,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L2422"
                                 }
                             ],
-                            "name": "_write_thumbnails()"
+                            "color": "rgb(0,191,255)",
+                            "name": "_write_thumbnai...()"
                         }
                     ],
                     "name": "YoutubeDL.py"
@@ -524,7 +563,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ruutu.py#L136"
                                         }
                                     ],
-                                    "name": "_real_extract.extrac...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_real_extract.e...()"
                                 }
                             ],
                             "name": "ruutu.py"
@@ -541,6 +581,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ndr.py#L204"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -558,7 +599,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dplay.py#L187"
                                         }
                                     ],
-                                    "name": "_get_disco_api_info...()"
+                                    "color": "rgb(255,99,71)",
+                                    "name": "_get_disco_api_...()"
                                 }
                             ],
                             "name": "dplay.py"
@@ -575,6 +617,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yapfiles.py#L42"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -592,6 +635,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/uol.py#L67"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -609,6 +653,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/cspan.py#L84"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -626,7 +671,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/naver.py#L21"
                                         }
                                     ],
-                                    "name": "_extract_video_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 }
                             ],
                             "name": "naver.py"
@@ -643,6 +689,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/generic.py#L2257"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_rss()"
                                 },
                                 {
@@ -655,6 +702,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/generic.py#L2355"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -672,6 +720,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/blinkx.py#L31"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -689,7 +738,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ard.py#L65"
                                         }
                                     ],
-                                    "name": "_extract_formats()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_format...()"
                                 },
                                 {
                                     "children": [
@@ -701,6 +751,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ard.py#L161"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -713,6 +764,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ard.py#L274"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -725,6 +777,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ard.py#L370"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -742,6 +795,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/firsttv.py#L62"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -759,6 +813,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/kinja.py#L131"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -776,6 +831,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/xhamster.py#L122"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -793,6 +849,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/arkena.py#L65"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -810,6 +867,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mixcloud.py#L81"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -822,6 +880,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mixcloud.py#L216"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -839,6 +898,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/viidea.py#L119"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -856,6 +916,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/francetv.py#L89"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_video()"
                                 }
                             ],
@@ -873,6 +934,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/eagleplatform.py#L123"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -890,6 +952,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/sixplay.py#L43"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -907,6 +970,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/threeqsdn.py#L87"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -924,6 +988,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/microsoftvirtualacademy.py#L55"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -941,6 +1006,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nba.py#L277"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_video()"
                                 }
                             ],
@@ -958,6 +1024,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/drtv.py#L119"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -975,6 +1042,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/metacafe.py#L131"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -992,7 +1060,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/amp.py#L18"
                                         }
                                     ],
-                                    "name": "_extract_feed_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_feed_i...()"
                                 }
                             ],
                             "name": "amp.py"
@@ -1009,6 +1078,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vgtv.py#L161"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1026,6 +1096,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/wat.py#L46"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1043,6 +1114,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/br.py#L194"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1060,6 +1132,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vevo.py#L191"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1077,7 +1150,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nowness.py#L17"
                                         }
                                     ],
-                                    "name": "_extract_url_result...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_url_re...()"
                                 }
                             ],
                             "name": "nowness.py"
@@ -1094,6 +1168,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ccma.py#L63"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1111,6 +1186,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rtbf.py#L70"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1128,6 +1204,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/trovo.py#L109"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1145,6 +1222,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ooyala.py#L26"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract()"
                                 }
                             ],
@@ -1162,6 +1240,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mediasite.py#L125"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1179,6 +1258,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dailymotion.py#L48"
                                         }
                                     ],
+                                    "color": "rgb(139, 0, 0)",
                                     "name": "_call_api()"
                                 },
                                 {
@@ -1191,6 +1271,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dailymotion.py#L206"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1208,7 +1289,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/abcnews.py#L121"
                                         }
                                     ],
-                                    "name": "_real_extract.entrie...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_real_extract.e...()"
                                 }
                             ],
                             "name": "abcnews.py"
@@ -1225,6 +1307,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/senateisvp.py#L102"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1242,6 +1325,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rts.py#L114"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1259,6 +1343,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dailymail.py#L38"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1276,6 +1361,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nrk.py#L147"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -1288,6 +1374,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nrk.py#L694"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1305,6 +1392,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/imdb.py#L52"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1322,7 +1410,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/sky.py#L19"
                                         }
                                     ],
-                                    "name": "_process_ooyala_elem...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_process_ooyala...()"
                                 }
                             ],
                             "name": "sky.py"
@@ -1339,6 +1428,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/zingmp3.py#L16"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_item()"
                                 }
                             ],
@@ -1356,6 +1446,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/limelight.py#L88"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_info()"
                                 }
                             ],
@@ -1373,6 +1464,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/contv.py#L36"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1390,6 +1482,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/discovery.py#L64"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1407,6 +1500,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rice.py#L32"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1424,6 +1518,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/videomore.py#L147"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1441,6 +1536,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ign.py#L65"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1458,6 +1554,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/itv.py#L54"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1475,7 +1572,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rai.py#L35"
                                         }
                                     ],
-                                    "name": "_extract_relinker_in...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_relink...()"
                                 },
                                 {
                                     "children": [
@@ -1487,6 +1585,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rai.py#L163"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -1499,6 +1598,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rai.py#L249"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1516,6 +1616,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youku.py#L143"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1533,6 +1634,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/roosterteeth.py#L84"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1550,6 +1652,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ninegag.py#L34"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1567,7 +1670,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/prosiebensat1.py#L25"
                                         }
                                     ],
-                                    "name": "_extract_video_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 }
                             ],
                             "name": "prosiebensat1.py"
@@ -1584,6 +1688,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/disney.py#L80"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1601,6 +1706,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nhl.py#L16"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1618,6 +1724,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/puhutv.py#L59"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1635,7 +1742,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/cda.py#L154"
                                         }
                                     ],
-                                    "name": "_real_extract.extrac...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_real_extract.e...()"
                                 }
                             ],
                             "name": "cda.py"
@@ -1652,6 +1760,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/telecinco.py#L118"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1669,6 +1778,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adultswim.py#L91"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1686,7 +1796,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/animeondemand.py#L119"
                                         }
                                     ],
-                                    "name": "_real_extract.extrac...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_real_extract.e...()"
                                 }
                             ],
                             "name": "animeondemand.py"
@@ -1703,6 +1814,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/hbo.py#L56"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_info()"
                                 }
                             ],
@@ -1720,7 +1832,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dvtv.py#L115"
                                         }
                                     ],
-                                    "name": "_parse_video_metadat...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_parse_video_me...()"
                                 }
                             ],
                             "name": "dvtv.py"
@@ -1737,6 +1850,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/showroomlive.py#L20"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1754,6 +1868,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/urplay.py#L40"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1771,6 +1886,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/msn.py#L69"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1788,6 +1904,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/arte.py#L51"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1805,6 +1922,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/servus.py#L63"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1822,6 +1940,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/younow.py#L131"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_entries()"
                                 }
                             ],
@@ -1839,6 +1958,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/patreon.py#L95"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1856,6 +1976,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pornhd.py#L49"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1873,7 +1994,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/onet.py#L29"
                                         }
                                     ],
-                                    "name": "_extract_from_id()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_from_i...()"
                                 }
                             ],
                             "name": "onet.py"
@@ -1890,6 +2012,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/openload.py#L23"
                                         }
                                     ],
+                                    "color": "rgb(34,139,34)",
                                     "name": "cookie_to_dict()"
                                 }
                             ],
@@ -1907,6 +2030,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pluralsight.py#L275"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1924,6 +2048,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/toggle.py#L90"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1941,6 +2066,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vimeo.py#L121"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_parse_config()"
                                 },
                                 {
@@ -1953,6 +2079,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vimeo.py#L565"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -1970,7 +2097,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/spotify.py#L43"
                                         }
                                     ],
-                                    "name": "_extract_episode()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_episod...()"
                                 }
                             ],
                             "name": "spotify.py"
@@ -1987,6 +2115,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/redtube.py#L45"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2004,6 +2133,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ted.py#L175"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_talk_info()"
                                 }
                             ],
@@ -2021,6 +2151,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/afreecatv.py#L223"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2038,6 +2169,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tvplay.py#L236"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2055,6 +2187,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/orf.py#L64"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2072,6 +2205,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/sevenplus.py#L45"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2089,6 +2223,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/imggaming.py#L64"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2106,6 +2241,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/sohu.py#L87"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2123,6 +2259,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/litv.py#L69"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2140,6 +2277,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yandexvideo.py#L65"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2157,6 +2295,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/hotstar.py#L111"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2174,7 +2313,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/cbs.py#L57"
                                         }
                                     ],
-                                    "name": "_extract_video_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 }
                             ],
                             "name": "cbs.py"
@@ -2191,7 +2331,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dreisat.py#L73"
                                         }
                                     ],
-                                    "name": "extract_from_xml_url...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "extract_from_xm...()"
                                 }
                             ],
                             "name": "dreisat.py"
@@ -2208,6 +2349,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tv2.py#L41"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2225,6 +2367,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/umg.py#L28"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2242,6 +2385,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/theweatherchannel.py#L35"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2259,6 +2403,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/stv.py#L45"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2276,7 +2421,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nhk.py#L23"
                                         }
                                     ],
-                                    "name": "_extract_episode_inf...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_episod...()"
                                 }
                             ],
                             "name": "nhk.py"
@@ -2293,6 +2439,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tvigle.py#L56"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2310,6 +2457,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/peertube.py#L530"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2327,6 +2475,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/reddit.py#L100"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2344,7 +2493,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nexx.py#L223"
                                         }
                                     ],
-                                    "name": "_extract_azure_forma...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_azure_...()"
                                 }
                             ],
                             "name": "nexx.py"
@@ -2361,6 +2511,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/hketv.py#L74"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2378,6 +2529,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vidlii.py#L43"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2395,6 +2547,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/libraryofcongress.py#L67"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2412,6 +2565,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vube.py#L101"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2429,6 +2583,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/radiocanada.py#L88"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_info()"
                                 }
                             ],
@@ -2446,6 +2601,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/abc.py#L130"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2463,6 +2619,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/beatport.py#L42"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2480,6 +2637,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ninecninemedia.py#L22"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2497,6 +2655,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ceskatelevize.py#L71"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2514,7 +2673,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L151"
                                         }
                                     ],
-                                    "name": "_build_brightcove_ur...()"
+                                    "color": "rgb(79,79,79)",
+                                    "name": "_build_brightco...()"
                                 },
                                 {
                                     "children": [
@@ -2526,7 +2686,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L252"
                                         }
                                     ],
-                                    "name": "_extract_brightcove_...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_bright...()"
                                 },
                                 {
                                     "children": [
@@ -2538,6 +2699,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L286"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -2550,6 +2712,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L411"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_urls()"
                                 },
                                 {
@@ -2562,7 +2725,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L471"
                                         }
                                     ],
-                                    "name": "_parse_brightcove_me...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_parse_brightco...()"
                                 },
                                 {
                                     "children": [
@@ -2574,6 +2738,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/brightcove.py#L589"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2591,6 +2756,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/huffpost.py#L41"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2608,6 +2774,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/playtvak.py#L102"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2625,6 +2792,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pornhub.py#L250"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -2637,6 +2805,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pornhub.py#L550"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_entries()"
                                 }
                             ],
@@ -2654,6 +2823,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/lego.py#L66"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2671,7 +2841,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/raywenderlich.py#L54"
                                         }
                                     ],
-                                    "name": "_extract_video_id()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 }
                             ],
                             "name": "raywenderlich.py"
@@ -2688,6 +2859,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/funimation.py#L77"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2705,6 +2877,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/eporner.py#L53"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2722,6 +2895,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pandoratv.py#L73"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2739,6 +2913,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/kaltura.py#L229"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2756,6 +2931,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nbc.py#L376"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2773,6 +2949,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/crunchyroll.py#L414"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2790,6 +2967,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/redbulltv.py#L57"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "extract_info()"
                                 }
                             ],
@@ -2807,6 +2985,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/crackle.py#L69"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2824,6 +3003,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ximalaya.py#L108"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2841,6 +3021,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/googledrive.py#L164"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2858,6 +3039,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ciscolive.py#L120"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_entries()"
                                 }
                             ],
@@ -2875,6 +3057,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mediaset.py#L130"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2892,6 +3075,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adn.py#L75"
                                         }
                                     ],
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_subtitles()"
                                 },
                                 {
@@ -2904,7 +3088,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adn.py#L136"
                                         }
                                     ],
-                                    "name": "_real_initialize()"
+                                    "color": "rgb(128,0,128)",
+                                    "name": "_real_initializ...()"
                                 },
                                 {
                                     "children": [
@@ -2916,6 +3101,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adn.py#L160"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2933,6 +3119,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/lifenews.py#L93"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2950,6 +3137,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/xiami.py#L18"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_track()"
                                 }
                             ],
@@ -2967,6 +3155,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/screencast.py#L61"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -2984,6 +3173,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yandexdisk.py#L59"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3001,6 +3191,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ivi.py#L83"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3018,6 +3209,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/twitter.py#L428"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3035,6 +3227,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vzaar.py#L59"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3052,6 +3245,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youporn.py#L74"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3069,6 +3263,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pladform.py#L56"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3086,6 +3281,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nova.py#L32"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -3098,6 +3294,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nova.py#L192"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3115,6 +3312,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/kakao.py#L53"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3132,6 +3330,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/xtube.py#L72"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3149,6 +3348,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/bilibili.py#L123"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3166,6 +3366,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pinterest.py#L29"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_video()"
                                 }
                             ],
@@ -3183,6 +3384,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/niconico.py#L272"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3200,6 +3402,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/zype.py#L43"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3217,6 +3420,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/teamcoco.py#L110"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3234,7 +3438,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/viki.py#L283"
                                         }
                                     ],
-                                    "name": "_real_extract.add_fo...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_real_extract.a...()"
                                 },
                                 {
                                     "children": [
@@ -3246,6 +3451,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/viki.py#L225"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3263,7 +3469,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tnaflix.py#L35"
                                         }
                                     ],
-                                    "name": "_extract_thumbnails...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_thumbn...()"
                                 },
                                 {
                                     "children": [
@@ -3275,6 +3482,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tnaflix.py#L75"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3292,7 +3500,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/zattoo.py#L124"
                                         }
                                     ],
-                                    "name": "_extract_formats()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_format...()"
                                 }
                             ],
                             "name": "zattoo.py"
@@ -3309,6 +3518,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/jamendo.py#L45"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3326,6 +3536,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/picarto.py#L36"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3343,6 +3554,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/npr.py#L58"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3360,6 +3572,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/hitbox.py#L160"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3377,6 +3590,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/beeg.py#L47"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3394,6 +3608,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/coub.py#L46"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3411,6 +3626,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/corus.py#L98"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3428,6 +3644,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/arcpublishing.py#L88"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3445,6 +3662,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/curiositystream.py#L64"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3462,7 +3680,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/facebook.py#L380"
                                         }
                                     ],
-                                    "name": "_extract_from_url()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_from_u...()"
                                 }
                             ],
                             "name": "facebook.py"
@@ -3479,6 +3698,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/odnoklassniki.py#L133"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3496,6 +3716,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/theplatform.py#L235"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -3508,7 +3729,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/theplatform.py#L346"
                                         }
                                     ],
-                                    "name": "_extract_feed_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_feed_i...()"
                                 }
                             ],
                             "name": "theplatform.py"
@@ -3525,6 +3747,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/lynda.py#L130"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3542,6 +3765,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/canvas.py#L49"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3559,7 +3783,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mtv.py#L71"
                                         }
                                     ],
-                                    "name": "_extract_video_forma...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 },
                                 {
                                     "children": [
@@ -3571,7 +3796,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mtv.py#L132"
                                         }
                                     ],
-                                    "name": "_get_video_info()"
+                                    "color": "rgb(255,99,71)",
+                                    "name": "_get_video_info...()"
                                 }
                             ],
                             "name": "mtv.py"
@@ -3588,6 +3814,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/spankwire.py#L76"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3605,7 +3832,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yahoo.py#L180"
                                         }
                                     ],
-                                    "name": "_extract_yahoo_video...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_yahoo_...()"
                                 },
                                 {
                                     "children": [
@@ -3617,6 +3845,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yahoo.py#L276"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3634,6 +3863,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/xuite.py#L89"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3651,6 +3881,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/wistia.py#L33"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_media()"
                                 }
                             ],
@@ -3668,6 +3899,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/konserthusetplay.py#L31"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3685,6 +3917,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mgtv.py#L41"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3702,7 +3935,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/bbc.py#L355"
                                         }
                                     ],
-                                    "name": "_process_media_selec...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_process_media_...()"
                                 },
                                 {
                                     "children": [
@@ -3714,6 +3948,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/bbc.py#L845"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3731,6 +3966,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tvnow.py#L30"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_video()"
                                 },
                                 {
@@ -3743,6 +3979,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tvnow.py#L444"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3760,6 +3997,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/hidive.py#L57"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3777,6 +4015,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/playvid.py#L41"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3794,7 +4033,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/zdf.py#L80"
                                         }
                                     ],
-                                    "name": "_extract_format()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_format...()"
                                 },
                                 {
                                     "children": [
@@ -3806,6 +4046,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/zdf.py#L112"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_entry()"
                                 }
                             ],
@@ -3823,6 +4064,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vk.py#L303"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3840,7 +4082,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/turner.py#L53"
                                         }
                                     ],
-                                    "name": "_extract_cvp_info()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_cvp_in...()"
                                 },
                                 {
                                     "children": [
@@ -3852,7 +4095,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/turner.py#L223"
                                         }
                                     ],
-                                    "name": "_extract_ngtv_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_ngtv_i...()"
                                 }
                             ],
                             "name": "turner.py"
@@ -3869,7 +4113,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vrv.py#L140"
                                         }
                                     ],
-                                    "name": "_extract_vrv_formats...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_vrv_fo...()"
                                 },
                                 {
                                     "children": [
@@ -3881,6 +4126,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vrv.py#L167"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3898,6 +4144,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/indavideo.py#L57"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3915,6 +4162,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/svt.py#L22"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_video()"
                                 },
                                 {
@@ -3927,6 +4175,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/svt.py#L294"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3944,6 +4193,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/voxmedia.py#L16"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3961,7 +4211,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/anvato.py#L273"
                                         }
                                     ],
-                                    "name": "_get_anvato_videos...()"
+                                    "color": "rgb(255,99,71)",
+                                    "name": "_get_anvato_vid...()"
                                 }
                             ],
                             "name": "anvato.py"
@@ -3978,6 +4229,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tv5mondeplus.py#L53"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -3995,6 +4247,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/dumpert.py#L34"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4012,6 +4265,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/viewlift.py#L94"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4029,6 +4283,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/xfileshare.py#L96"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4046,6 +4301,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/ninenow.py#L43"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4063,7 +4319,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pbs.py#L438"
                                         }
                                     ],
-                                    "name": "_extract_webpage()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_webpag...()"
                                 },
                                 {
                                     "children": [
@@ -4075,6 +4332,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/pbs.py#L539"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4092,6 +4350,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/joj.py#L51"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4109,6 +4368,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/lecturio.py#L105"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4126,6 +4386,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/teachable.py#L153"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4143,6 +4404,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/linuxacademy.py#L154"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4160,7 +4422,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/yandexmusic.py#L200"
                                         }
                                     ],
-                                    "name": "_extract_tracks()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_tracks...()"
                                 }
                             ],
                             "name": "yandexmusic.py"
@@ -4177,6 +4440,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/minds.py#L71"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4194,6 +4458,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/piksel.py#L87"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4211,6 +4476,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/aparat.py#L36"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4228,6 +4494,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/srgssr.py#L54"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4245,6 +4512,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rutv.py#L125"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4262,7 +4530,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/nytimes.py#L23"
                                         }
                                     ],
-                                    "name": "_extract_video_from_...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 }
                             ],
                             "name": "nytimes.py"
@@ -4279,6 +4548,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/npo.py#L186"
                                         }
                                     ],
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_info()"
                                 },
                                 {
@@ -4291,6 +4561,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/npo.py#L299"
                                         }
                                     ],
+                                    "color": "rgb(255,99,71)",
                                     "name": "_get_old_info()"
                                 }
                             ],
@@ -4308,6 +4579,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/videa.py#L96"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4325,6 +4597,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/iqiyi.py#L339"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4342,6 +4615,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/bandcamp.py#L87"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4359,6 +4633,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/twitch.py#L427"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_entries()"
                                 },
                                 {
@@ -4371,6 +4646,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/twitch.py#L893"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4388,6 +4664,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L68"
                                         }
                                     ],
+                                    "color": "rgb(0,191,255)",
                                     "name": "_login()"
                                 },
                                 {
@@ -4400,6 +4677,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L1428"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -4412,7 +4690,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L2336"
                                         }
                                     ],
-                                    "name": "_post_thread_entries...()"
+                                    "color": "rgb(100,149,237)",
+                                    "name": "_post_thread_en...()"
                                 },
                                 {
                                     "children": [
@@ -4424,6 +4703,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L2421"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_entries()"
                                 },
                                 {
@@ -4436,6 +4716,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/youtube.py#L2855"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_entries()"
                                 }
                             ],
@@ -4453,6 +4734,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/cammodels.py#L20"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4470,7 +4752,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/discoverygo.py#L31"
                                         }
                                     ],
-                                    "name": "_extract_video_info...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_video_...()"
                                 }
                             ],
                             "name": "discoverygo.py"
@@ -4487,6 +4770,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/appletrailers.py#L96"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4504,6 +4788,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/globo.py#L93"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4521,6 +4806,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/udemy.py#L214"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -4533,6 +4819,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/udemy.py#L437"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4550,6 +4837,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vice.py#L120"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4567,6 +4855,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/watchbox.py#L65"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4584,6 +4873,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/channel9.py#L99"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4601,6 +4891,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/voot.py#L45"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4618,6 +4909,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/medaltv.py#L47"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4635,7 +4927,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L438"
                                         }
                                     ],
-                                    "name": "_initialize_geo_bypa...()"
+                                    "color": "rgb(128,0,128)",
+                                    "name": "_initialize_geo...()"
                                 },
                                 {
                                     "children": [
@@ -4647,7 +4940,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L597"
                                         }
                                     ],
-                                    "name": "_request_webpage()"
+                                    "color": "rgb(255,99,71)",
+                                    "name": "_request_webpag...()"
                                 },
                                 {
                                     "children": [
@@ -4659,6 +4953,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L981"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_search_regex()"
                                 },
                                 {
@@ -4671,7 +4966,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1189"
                                         }
                                     ],
-                                    "name": "_search_json_ld()"
+                                    "color": "rgb(100,149,237)",
+                                    "name": "_search_json_ld...()"
                                 },
                                 {
                                     "children": [
@@ -4683,7 +4979,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1246"
                                         }
                                     ],
-                                    "name": "_json_ld.extract_int...()"
+                                    "color": "rgb(100,149,237)",
+                                    "name": "_json_ld.extrac...()"
                                 },
                                 {
                                     "children": [
@@ -4695,6 +4992,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1218"
                                         }
                                     ],
+                                    "color": "rgb(100,149,237)",
                                     "name": "_json_ld()"
                                 },
                                 {
@@ -4707,7 +5005,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1375"
                                         }
                                     ],
-                                    "name": "_sort_formats._forma...()"
+                                    "color": "rgb(34,139,34)",
+                                    "name": "_sort_formats._...()"
                                 },
                                 {
                                     "children": [
@@ -4719,6 +5018,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1861"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_parse_smil()"
                                 },
                                 {
@@ -4731,7 +5031,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L1905"
                                         }
                                     ],
-                                    "name": "_parse_smil_formats...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_parse_smil_for...()"
                                 },
                                 {
                                     "children": [
@@ -4743,7 +5044,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2083"
                                         }
                                     ],
-                                    "name": "_parse_mpd_formats...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_parse_mpd_form...()"
                                 },
                                 {
                                     "children": [
@@ -4755,7 +5057,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2380"
                                         }
                                     ],
-                                    "name": "_parse_ism_formats...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_parse_ism_form...()"
                                 },
                                 {
                                     "children": [
@@ -4767,7 +5070,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2475"
                                         }
                                     ],
-                                    "name": "_parse_html5_media_e...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_parse_html5_me...()"
                                 },
                                 {
                                     "children": [
@@ -4779,7 +5083,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2598"
                                         }
                                     ],
-                                    "name": "_extract_akamai_form...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_akamai...()"
                                 },
                                 {
                                     "children": [
@@ -4791,7 +5096,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/common.py#L2654"
                                         }
                                     ],
-                                    "name": "_extract_wowza_forma...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_wowza_...()"
                                 }
                             ],
                             "name": "common.py"
@@ -4808,6 +5114,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vlive.py#L205"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4825,6 +5132,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/audioboom.py#L30"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4842,6 +5150,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mdr.py#L102"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4859,6 +5168,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/fusion.py#L38"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4876,6 +5186,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/xvideos.py#L81"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4893,6 +5204,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/chaturbate.py#L38"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4910,6 +5222,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/eitb.py#L32"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4927,7 +5240,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/adobepass.py#L1354"
                                         }
                                     ],
-                                    "name": "_extract_mvpd_auth...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_mvpd_a...()"
                                 }
                             ],
                             "name": "adobepass.py"
@@ -4944,6 +5258,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/keezmovies.py#L37"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_info()"
                                 }
                             ],
@@ -4961,6 +5276,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/testurl.py#L15"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -4978,6 +5294,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/instagram.py#L121"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -4990,7 +5307,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/instagram.py#L267"
                                         }
                                     ],
-                                    "name": "_extract_graphql()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_graphq...()"
                                 }
                             ],
                             "name": "instagram.py"
@@ -5007,6 +5325,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/viqeo.py#L49"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5024,7 +5343,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/soundcloud.py#L349"
                                         }
                                     ],
-                                    "name": "_extract_info_dict.a...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_info_d...()"
                                 },
                                 {
                                     "children": [
@@ -5036,7 +5356,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/soundcloud.py#L318"
                                         }
                                     ],
-                                    "name": "_extract_info_dict...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_extract_info_d...()"
                                 },
                                 {
                                     "children": [
@@ -5048,6 +5369,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/soundcloud.py#L496"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_set()"
                                 }
                             ],
@@ -5065,6 +5387,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/wdr.py#L37"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5082,6 +5405,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mailru.py#L99"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 },
                                 {
@@ -5094,6 +5418,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/mailru.py#L210"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_track()"
                                 }
                             ],
@@ -5111,6 +5436,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/iprima.py#L74"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5128,6 +5454,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rtve.py#L24"
                                         }
                                     ],
+                                    "color": "rgb(255,228,181)",
                                     "name": "_decrypt_url()"
                                 }
                             ],
@@ -5145,6 +5472,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/vidme.py#L135"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5162,6 +5490,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/fox.py#L93"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5179,6 +5508,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/rte.py#L20"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5196,6 +5526,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/steam.py#L68"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5213,6 +5544,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/condenast.py#L143"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_extract_video()"
                                 }
                             ],
@@ -5230,6 +5562,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/gfycat.py#L64"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5247,6 +5580,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/go.py#L144"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5264,6 +5598,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/extractor/tvnet.py#L82"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "_real_extract()"
                                 }
                             ],
@@ -5286,7 +5621,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/fragment.py#L126"
                                         }
                                     ],
-                                    "name": "_prepare_frag_downlo...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "_prepare_frag_d...()"
                                 }
                             ],
                             "name": "fragment.py"
@@ -5303,7 +5639,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/http.py#L86"
                                         }
                                     ],
-                                    "name": "real_download.establ...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "real_download.e...()"
                                 },
                                 {
                                     "children": [
@@ -5315,7 +5652,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/http.py#L196"
                                         }
                                     ],
-                                    "name": "real_download.downlo...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "real_download.d...()"
                                 },
                                 {
                                     "children": [
@@ -5327,6 +5665,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/http.py#L28"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "real_download()"
                                 }
                             ],
@@ -5344,7 +5683,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/external.py#L223"
                                         }
                                     ],
-                                    "name": "_call_downloader()"
+                                    "color": "rgb(139, 0, 0)",
+                                    "name": "_call_downloade...()"
                                 }
                             ],
                             "name": "external.py"
@@ -5361,6 +5701,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/dash.py#L18"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "real_download()"
                                 }
                             ],
@@ -5378,7 +5719,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/rtmp.py#L25"
                                         }
                                     ],
-                                    "name": "real_download.run_rt...()"
+                                    "color": "rgb(255,255,255)",
+                                    "name": "real_download.r...()"
                                 },
                                 {
                                     "children": [
@@ -5390,6 +5732,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/rtmp.py#L24"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "real_download()"
                                 }
                             ],
@@ -5407,6 +5750,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/f4m.py#L319"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "real_download()"
                                 }
                             ],
@@ -5424,6 +5768,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/hls.py#L60"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "real_download()"
                                 }
                             ],
@@ -5441,6 +5786,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/ism.py#L213"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "real_download()"
                                 }
                             ],
@@ -5458,7 +5804,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/common.py#L248"
                                         }
                                     ],
-                                    "name": "report_progress()"
+                                    "color": "rgb(255,228,181)",
+                                    "name": "report_progress...()"
                                 },
                                 {
                                     "children": [
@@ -5470,6 +5817,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/downloader/common.py#L329"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "download()"
                                 }
                             ],
@@ -5492,6 +5840,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/embedthumbnail.py#L30"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "run()"
                                 }
                             ],
@@ -5509,7 +5858,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/ffmpeg.py#L75"
                                         }
                                     ],
-                                    "name": "_determine_executabl...()"
+                                    "color": "rgb(255,228,181)",
+                                    "name": "_determine_exec...()"
                                 },
                                 {
                                     "children": [
@@ -5521,7 +5871,8 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/ffmpeg.py#L164"
                                         }
                                     ],
-                                    "name": "get_audio_codec()"
+                                    "color": "rgb(255,99,71)",
+                                    "name": "get_audio_codec...()"
                                 },
                                 {
                                     "children": [
@@ -5533,6 +5884,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/ffmpeg.py#L269"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "run()"
                                 },
                                 {
@@ -5545,6 +5897,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/ffmpeg.py#L376"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "run()"
                                 }
                             ],
@@ -5562,6 +5915,7 @@
                                             "url": "https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/postprocessor/xattrpp.py#L26"
                                         }
                                     ],
+                                    "color": "rgb(255,255,255)",
                                     "name": "run()"
                                 }
                             ],
@@ -5587,7 +5941,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/devscripts/zsh-completion.py#L15"
                                 }
                             ],
-                            "name": "build_completion()"
+                            "color": "rgb(79,79,79)",
+                            "name": "build_completio...()"
                         }
                     ],
                     "name": "zsh-completion.py"
@@ -5609,7 +5964,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/test/test_download.py#L94"
                                 }
                             ],
-                            "name": "generator.test_templ...()"
+                            "color": "rgb(34,139,34)",
+                            "name": "generator.test_...()"
                         }
                     ],
                     "name": "test_download.py"
@@ -5626,6 +5982,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/test/helper.py#L101"
                                 }
                             ],
+                            "color": "rgb(255,99,71)",
                             "name": "expect_value()"
                         },
                         {
@@ -5638,7 +5995,8 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/test/helper.py#L189"
                                 }
                             ],
-                            "name": "expect_info_dict()"
+                            "color": "rgb(255,228,181)",
+                            "name": "expect_info_dic...()"
                         }
                     ],
                     "name": "helper.py"
@@ -5655,6 +6013,7 @@
                                     "url": "https://github.com/ytdl-org/youtube-dl/blob/master/test/test_unicode_literals.py#L29"
                                 }
                             ],
+                            "color": "rgb(255,182,193)",
                             "name": "test_all_files()"
                         }
                     ],
